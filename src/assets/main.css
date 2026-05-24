@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source "../";
+@import 'remixicon/fonts/remixicon.css';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -28,8 +30,9 @@
   --color-surface-900: #0f172a;
   --color-surface-950: #020617;
 
-  --font-display: "Playfair Display", Georgia, serif;
-  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-logo: "Dancing Script", Georgia, serif;
+  --font-sans: "Roboto", "Kantumruy Pro", system-ui, sans-serif;
+  --font-display: "Roboto", "Kantumruy Pro";
 
   --shadow-card:    0 2px 20px -4px rgba(0,0,0,.12), 0 1px 4px -2px rgba(0,0,0,.08);
   --shadow-card-lg: 0 8px 40px -8px rgba(0,0,0,.18), 0 2px 8px -2px rgba(0,0,0,.10);
@@ -75,7 +78,7 @@
 @layer components {
   .btn-primary {
     @apply bg-primary-600 hover:bg-primary-700 active:bg-primary-800
-    text-white font-semibold px-6 py2.5 rounded-xl cursor-pointer transition-all
+    text-white font-semibold px-6 py-2 rounded-xl cursor-pointer transition-all
     duration-200 shadow-sm hover:shadow-glow disabled:opacity-50 disabled:cursor-not-allowed
     focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2
     inline-flex items-center justify-center;
@@ -83,15 +86,15 @@
 
   .btn-outline {
     @apply border-2 border-primary-600 text-primary-600
-    hover:bg-primary-50 font-semibold px-6 py-2.5 rounded-xl cursor-pointer
+    hover:bg-primary-50 font-semibold px-6 py-2 rounded-xl cursor-pointer
     transition-all duration-200
     focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2
     inline-flex items-center justify-center;
-  }
+}
 
   .btn-ghost {
-    @apply text-gray-600 hover:text-gray-900 hover:bg-gray-100
-    font-medium px-4 py-2 rounded-lg transition-all duration-200 cursor-pointer;
+    @apply text-gray-600 hover:text-gray-900 hover:bg-gray-200
+    font-medium px-2 py-2 rounded-lg transition-all duration-200 cursor-pointer;
   }
 
   .btn-danger {
@@ -139,7 +142,7 @@
   }
 
   .section-title {
-    @apply font-display text-3xl font-bold text-gray-900;
+    @apply font-logo text-3xl font-bold text-gray-900;
   }
 }
 
