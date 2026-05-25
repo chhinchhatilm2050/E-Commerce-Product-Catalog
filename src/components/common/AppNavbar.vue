@@ -65,13 +65,13 @@
             </span>
           </RouterLink>
 
-          <div class="relative" >
+          <div class="relative" ref="userMenuRef">
             <button
               v-if="authStore.isLoggedIn"
               @click="userMenuOpen = !userMenuOpen"
-              class="flex items-center gap-2 pl-1 pr-3 py-1 rounded-full border-2 border-gray-200 dark:border-surface-600 hover:border-primary-400 transition-all duration-200"
+              class="flex items-center gap-2 pl-1 pr-3 py-1 rounded-full border-2 border-gray-400 dark:border-surface-600 hover:border-primary-400 transition-all duration-200"
             >
-              <div class="w-7 h-7 rounded-full bg-primary-600 flex items-center justify-center text-white text-xs font-bold">
+              <div class="w-7 h-7 rounded-full bg-primary-600 flex items-center justify-center  text-white text-xs font-bold">
                 {{ authStore.currentUser?.avatar }}
               </div>
               <span class="hidden sm:block text-sm font-medium  text-gray-700 dark:text-gray-300 max-w-[80px] truncate">
@@ -90,7 +90,7 @@
               Login
             </RouterLink>
 
-            <Transition name="dropdown">
+            <Transition name="dropdown" >
               <div v-if="userMenuOpen && authStore.isLoggedIn"
                 class="absolute right-0 top-full mt-2 w-52 bg-white dark:bg-surface-800 rounded-2xl shadow-card-lg border border-gray-100 dark:border-surface-700 overflow-hidden z-50"
               >
@@ -192,7 +192,7 @@
   const router = useRouter();
 
 
- const mobileMenuOpen = ref(false)
+  const mobileMenuOpen = ref(false)
   const langMenuOpen   = ref(false)
   const userMenuOpen   = ref(false)
   const langMenuRef    = ref(null)
@@ -227,6 +227,7 @@
 
   const handleClickOutside = (e) => {
     if (langMenuRef.value && !langMenuRef.value.contains(e.target)) langMenuOpen.value = false
+    if (userMenuRef.value && !userMenuRef.value.contains(e.target)) userMenuOpen.value = false
   }
 
   onMounted(() => document.addEventListener('click', handleClickOutside))

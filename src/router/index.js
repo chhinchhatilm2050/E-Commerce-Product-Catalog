@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 const HomeView = () => import('@/views/HomeView.vue');
 const ProductsView  = () => import('@/views/ProductsView.vue');
-const AboutView = () => import('@/views/AboutView.vue')
-
+const AboutView = () => import('@/views/AboutView.vue');
+const LoginView = () => import('@/views/auth/LoginView.vue');
+const RegisterView = () => import('@/views/auth/RegisterView.vue');
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -22,6 +23,18 @@ const router = createRouter({
     path: '/about',
     name: 'about',
     component: AboutView
+   },
+   {
+    path: '/login',
+    name: 'login',
+    component: LoginView,
+    meta: { title: 'CbcShop - Login', guestOnly: true }
+   },
+   {
+    path: '/register',
+    name: 'register',
+    component: RegisterView,
+    meta: { title: 'CbcShop - Login', guestOnly: true }
    }
   ],
 })

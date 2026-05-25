@@ -108,7 +108,44 @@ export const useAuthStore = defineStore('auth', () => {
     const session = {...existingUser, password: undefined};
     currentUser.value = session;
     localStorage.setItem(AUTH_KEY, JSON.stringify(session));
+    loading.value = false
+    return true
   };
+
+  const register =  async (name, email, password) => {
+    loading.value   = true
+    authError.value = ''
+    await new Promise(r => setTimeout(r, 1000))
+
+    users.value = JSON.parse(localStorage.getItem(USERS_KEY) || '[]')
+
+    if (users.value.find(u => u.email.toLowerCase() === email.toLowerCase())) {
+      authError.value = 'An account with this email already exists.'
+      loading.value = false
+      return false
+    }
+
+    const newUser = {
+      id: Date.now(),
+      name,
+      email,
+      password,
+      role: 'customer',
+      status: 'active',
+      avatar: name[0].toUpperCase(),
+      createdAt: new Date().toISOString(),
+      orders: 0,
+      totalSpent: 0
+    }
+    users.value.push(newUser)
+    localStorage.setItem(USERS_KEY, JSON.stringify(users.value))
+
+    const session = { ...newUser, password: undefined }
+    currentUser.value = session
+    localStorage.setItem(AUTH_KEY, JSON.stringify(session))
+    loading.value = false
+    return true
+  }
 
   const logout = () => {
     currentUser.value = null;
@@ -117,7 +154,7 @@ export const useAuthStore = defineStore('auth', () => {
   return {
       currentUser, users, authError, loading,
       isLoggedIn, isAdmin, allUsers,
-      restoreSession, login, logout,
+      restoreSession, login, logout,register
     }
 });
 
