@@ -108,6 +108,8 @@ export const useAuthStore = defineStore('auth', () => {
     const session = {...existingUser, password: undefined};
     currentUser.value = session;
     localStorage.setItem(AUTH_KEY, JSON.stringify(session));
+    loading.value = false
+    return true
   };
 
   const logout = () => {
