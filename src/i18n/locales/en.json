@@ -8,5 +8,18 @@
         "checkout": "Checkout",
         "login": "Login",
         "profile": "Profile"
+    },
+    "login": {
+        "welcome": "Welcome back",
+        "login": "Sign in to your account",
+        "email":"Email Address",
+        "password": "Password",
+        "forgetPassword": "Forget password?",
+        "signIn": "Sign In",
+        "signUp": "Sign Up",
+        "notHave": "Don't have an account?",
+        "continous": "OR CONTINUE WITH",
+        "backStore": "Back to Store"
     }
+
 }

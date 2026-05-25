@@ -192,7 +192,7 @@
   const router = useRouter();
 
 
- const mobileMenuOpen = ref(false)
+  const mobileMenuOpen = ref(false)
   const langMenuOpen   = ref(false)
   const userMenuOpen   = ref(false)
   const langMenuRef    = ref(null)
