@@ -1,0 +1,12 @@
+{
+    "nav": {
+        "home": "Home",
+        "products": "Products",
+        "about": "About",
+        "contact": "Contact",
+        "cart": "Cart",
+        "checkout": "Checkout",
+        "login": "Login",
+        "profile": "Profile"
+    }
+}
