@@ -1,4 +1,7 @@
+##CI/CD
+[![CI Pipeline](https://github.com/chhinchhatilm2050/E-Commerce-Product-Catalog/actions/workflows/ci.yml/badge.svg)](https://github.com/chhinchhatilm2050/E-Commerce-Product-Catalog/actions/workflows/ci.yml)
 # E-Commerce Product Catalog
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
