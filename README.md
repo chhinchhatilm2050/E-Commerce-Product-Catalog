@@ -1,5 +1,6 @@
-##CI/CD
+## CI/CD
 [![CI Pipeline](https://github.com/chhinchhatilm2050/E-Commerce-Product-Catalog/actions/workflows/ci.yml/badge.svg)](https://github.com/chhinchhatilm2050/E-Commerce-Product-Catalog/actions/workflows/ci.yml)
+
 # E-Commerce Product Catalog
 
 
