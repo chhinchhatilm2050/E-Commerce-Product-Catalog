@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 const HomeView = () => import('@/views/HomeView.vue');
 const ProductsView  = () => import('@/views/ProductsView.vue');
-const AboutView = () => import('@/views/AboutView.vue');
+const ContactView = () => import('@/views/ContactView.vue');
 const LoginView = () => import('@/views/auth/LoginView.vue');
 const RegisterView = () => import('@/views/auth/RegisterView.vue');
 const router = createRouter({
@@ -20,9 +20,9 @@ const router = createRouter({
     meta: {title: 'CbcShop - Products'}
    },
    {
-    path: '/about',
-    name: 'about',
-    component: AboutView
+    path: '/contact',
+    name: 'contact',
+    component: ContactView
    },
    {
     path: '/login',

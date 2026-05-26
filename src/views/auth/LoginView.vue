@@ -9,9 +9,9 @@
           <div class="w-10 h-10 bg-primary-600 backdrop-blur rounded-xl flex items-center justify-center group-hover:bg-primary-500 transition-all">
             <span class="text-white font-logo font-bold text-lg">CBC</span>
           </div>
-          <span class="font-logo font-bold text-2xl text-gray-500">CBCShop</span>
+          <span class="font-logo font-bold text-2xl text-gray-700 dark:text-gray-400">CBCShop</span>
         </RouterLink>
-          <h1 class="mt-2 font-display text-3xl font-bold text-gray-500">{{ $t('login.welcome') }}</h1>
+          <h1 class="mt-2 font-display text-3xl font-bold text-gray-700 dark:text-gray-400">{{ $t('login.welcome') }}</h1>
           <p class="text-primary-600 mt-1 text-sm">{{$t('login.login')}}</p>
       </div>
 
@@ -24,7 +24,7 @@
         <form @submit.prevent="handleLogin">
           <div>
             <label class="label">{{$t('login.email')}}</label>
-            <input type="text" v-model="email" class="input" :class="{'input-error': errors.email}" placeholder="you@example.com" autocomplete="email"/>
+            <input type="text" v-model="email" class="input" :class="{'input-error': errors.email}" placeholder="Enter your email" autocomplete="email"/>
             <p v-if="errors.email" class="error-msg">{{ errors.email }}</p>
           </div>
           <div>
@@ -34,7 +34,7 @@
             </div>
             <div class="relative">
               <input v-model="password" :type="showPass ? 'text' : 'password'" :class="{'input-error': errors.password}"
-                placeholder="........." autocomplete="current-password" class="input"
+                placeholder="Enter your passowrd" autocomplete="current-password" class="input"
               />
               <button type="button" @click="showPass = !showPass"
                 class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 cursor-pointer"
