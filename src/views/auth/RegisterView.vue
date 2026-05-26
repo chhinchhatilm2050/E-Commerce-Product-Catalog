@@ -10,9 +10,9 @@
           <div class="w-10 h-10 bg-primary-600 backdrop-blur rounded-xl flex items-center justify-center group-hover:bg-primary-500 transition-all">
             <span class="text-white font-logo font-bold text-lg">CBC</span>
           </div>
-          <span class="font-logo font-bold text-2xl text-gray-500">CBCShop</span>
+          <span class="font-logo font-bold text-2xl dark:text-gray-400 text-gray-700">CBCShop</span>
         </RouterLink>
-          <h1 class="mt-2 font-display text-3xl font-bold text-gray-500">Create account</h1>
+          <h1 class="mt-2 font-display text-3xl dark:text-gray-400 font-bold text-gray-700">Create account</h1>
           <p class="text-primary-600 mt-1 text-sm">Join thousands of happy shoppers</p>
       </div>
       <div class="bg-white dark:bg-surface-800 rounded-3xl shadow-card-lg p-8">
@@ -29,7 +29,7 @@
           </div>
           <div>
             <label class="label">Email Address</label>
-            <input v-model="form.email" type="email" class="input" :class="{'input-error': errors.email}" placeholder="you@example.com" autocomplete="email" />
+            <input v-model="form.email" type="email" class="input" :class="{'input-error': errors.email}" placeholder="Enter your email" autocomplete="email" />
             <p v-if="errors.email" class="error-msg">{{ errors.email }}</p>
           </div>
           <div>
@@ -40,7 +40,7 @@
                 :type="showPass ? 'text' : 'password'"
                 class="input"
                 :class="{'input-error': errors.password}"
-                placeholder="............"
+                placeholder="Enter your password"
                 autocomplete="new-password"
               />
               <button type="button" @click="showPass = !showPass" class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600">
@@ -59,7 +59,7 @@
           </div>
 
           <label class="flex items-start gap-3 cursor-pointer">
-            <input v-model="agreedToTerms" type="checkbox" class="mt-0.5 w-4 h-4 rounded accent-primary-600" />
+            <input v-model="agreedToTerms" type="checkbox" class="mt-0.5 w-4 h-4 rounded accent-primary-600 " />
             <span class="text-sm text-gray-600">
               I agree to the <a href="#" class="text-primary-600 font-medium">Terms of Service</a> and
               <a href="#" class="text-primary-600 font-medium">Privacy Policy</a>

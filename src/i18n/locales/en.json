@@ -2,7 +2,6 @@
     "nav": {
         "home": "Home",
         "products": "Products",
-        "about": "About",
         "contact": "Contact",
         "cart": "Cart",
         "checkout": "Checkout",
@@ -20,6 +19,18 @@
         "notHave": "Don't have an account?",
         "continous": "OR CONTINUE WITH",
         "backStore": "Back to Store"
+    },
+    "footer": {
+        "tagline": "Premium products, exceptional experience with us.",
+        "quick_links": "Quick Links",
+        "categories": "Categories",
+        "newsletter": "Newsletter",
+        "newsletter_desc": "Subscribe for exclusive deals and updates",
+        "email_placeholder": "Enter your email",
+        "subscribe": "Subscribe",
+        "rights": "All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
     }
 
 }
