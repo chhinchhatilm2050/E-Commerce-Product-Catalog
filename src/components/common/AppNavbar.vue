@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 transition-all duration-300"
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200 transition-all duration-300"
     :class="{ 'dark:bg-surface-900/90 dark:border-surface-700': true }"
   >
     <div class="container-xl">
@@ -9,13 +9,13 @@
           <div class="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center shadow-sm group-hover:shadow-glow transition-all duration-300">
             <span class="text-white font-logo font-bold text-sm">CBC</span>
           </div>
-          <span class="font-logo font-bold text-xl text-gray-700 dark:text-white/90">CBCShop</span>
+          <span class="font-logo font-bold text-xl text-gray-800 dark:text-white/90">CBCShop</span>
         </RouterLink>
 
         <ul class="hidden md:flex items-center gap-1">
           <li v-for="link in navLinks" :key="link.to">
             <RouterLink :to="link.to"
-              class="px-4 py-2 rounded-xl font-medium text-gray-600 hover:text-gray-700 hover:bg-gray-100 transition-all duration-200 "
+              class="px-4 py-2 rounded-xl font-medium text-gray-800 hover:text-gray-700 dark:text-gray-400 hover:bg-gray-100 transition-all duration-200 "
               active-class="text-primary-600 bg-primary-50 dark:bg-primary-950 dark:text-primary-400 rounded-xl"
             >
               {{ $t(link.label) }}
@@ -42,7 +42,7 @@
               >
                 <button v-for="lang in langusge" :key="lang.code"
                   @click="setLanguage(lang.code)"
-                  class="w-full flex items-center gap-2.5 px-3 py-2.5 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-surface-700 transition-colors"
+                  class="cursor-pointer w-full flex items-center gap-2.5 px-3 py-2.5 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-surface-700 transition-colors"
                   :class="{ 'text-primary-600 font-semibold bg-primary-50 dark:bg-primary-950': userStore.locale === lang.code }"
                 >
                 <span>{{ lang.flag }}</span>
@@ -201,7 +201,7 @@
   const navLinks = [
     {to: '/', label: 'nav.home'},
     {to: '/products', label: 'nav.products'},
-    {to: '/about', label: 'nav.about'}
+    {to: '/contact', label: 'nav.contact'}
   ];
 
   const langusge = [
