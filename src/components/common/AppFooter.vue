@@ -3,10 +3,8 @@
     <div class="container-xl py-12">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div class="lg:col-span-1">
-            <RouterLink to="/" class="flex items-center gap-2 group">
-              <div class="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center shadow-sm group-hover:shadow-glow transition-all duration-300">
-                <span class="text-white font-logo font-bold text-sm">CBC</span>
-              </div>
+            <RouterLink to="/" class="flex items-center group">
+              <img class="w-[50px] h-[46px]" src="../../assets/image/CBClogo.png" alt="">
               <span class="font-logo font-bold text-xl text-gray-800 dark:text-white">CBCShop</span>
             </RouterLink>
             <p class="text-sm text-gray-700 dark:text-gray-400 leading-relaxed mt-3 mb-5">
@@ -52,9 +50,9 @@
                 v-model="email"
                 type="email"
                 :placeholder="$t('footer.email_placeholder')"
-                class="flex-1 px-3 py-2 border border-gray-500 rounded-lg text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-primary-500"
+                class="flex-1 px-2 py-2 border border-gray-500 rounded-xl text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-primary-500"
               />
-              <button @click="subscribe" class="px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white text-sm font-semibold rounded-lg transition-colors">
+              <button @click="subscribe" class="px-2 py-2 cursor-pointer bg-primary-600 hover:bg-primary-700 text-white text-sm font-semibold rounded-xl transition-colors">
                 {{ $t('footer.subscribe') }}
               </button>
             </div>
@@ -87,10 +85,10 @@
   ];
 
   const categories = [
-    { to: '/products?category=Electronics', label: 'electronics' },
-    { to: '/products?category=Clothing', label: 'clothing' },
-    { to: '/products?category=Books', label: 'books' },
-    { to: '/products?category=Home%20%26%20Garden', label: 'home-garden' },
+    { to: '/products?category=Electronics', label: 'products.electronics' },
+    { to: '/products?category=Clothing', label: 'products.clothing' },
+    { to: '/products?category=Books', label: 'products.books' },
+    { to: '/products?category=Home%20%26%20Garden', label: 'products.home_garden' },
   ]
 
   const socials = [
