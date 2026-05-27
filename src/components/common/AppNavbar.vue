@@ -5,11 +5,8 @@
     <div class="container-xl">
       <nav class="flex items-center justify-between h-16">
 
-        <RouterLink to="/" class="flex items-center gap-2 group">
-          <div class="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center shadow-sm group-hover:shadow-glow transition-all duration-300">
-            <span class="text-white font-logo font-bold text-sm">CBC</span>
-          </div>
-          <span class="font-logo font-bold text-xl text-gray-800 dark:text-white/90">CBCShop</span>
+        <RouterLink to="/" >
+          <img class="w-[50px] h-[46px]" src="../../assets/image/CBClogo.png" alt="">
         </RouterLink>
 
         <ul class="hidden md:flex items-center gap-1">

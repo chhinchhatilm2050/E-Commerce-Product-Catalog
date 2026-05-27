@@ -6,14 +6,11 @@
 
     <div class="relative w-full max-w-md animate-slide-up">
       <div class="text-center mb-8">
-        <RouterLink to="/" class="inline-flex items-center gap-2 group">
-          <div class="w-10 h-10 bg-primary-600 backdrop-blur rounded-xl flex items-center justify-center group-hover:bg-primary-500 transition-all">
-            <span class="text-white font-logo font-bold text-lg">CBC</span>
-          </div>
-          <span class="font-logo font-bold text-2xl dark:text-gray-400 text-gray-700">CBCShop</span>
-        </RouterLink>
-          <h1 class="mt-2 font-display text-3xl dark:text-gray-400 font-bold text-gray-700">Create account</h1>
-          <p class="text-primary-600 mt-1 text-sm">Join thousands of happy shoppers</p>
+          <RouterLink to="/" class="flex items-center justify-center group">
+            <img class="w-[50px] h-[46px]" src="../../assets/image/CBClogo.png" alt="">
+          </RouterLink>
+          <h1 class="mt-2 font-display text-3xl dark:text-gray-400 font-bold text-gray-700">{{$t('register.siginup')}}</h1>
+          <p class="text-primary-600 mt-1 text-sm">{{$t('register.subTitle')}}</p>
       </div>
       <div class="bg-white dark:bg-surface-800 rounded-3xl shadow-card-lg p-8">
         <div v-if="authStore.authError"
@@ -23,24 +20,24 @@
 
         <form @submit.prevent="handleRegister" class="space-y-4">
           <div>
-            <label class="label">Full Name</label>
-            <input v-model="form.name" type="text" class="input" :class="{'input-error': errors.name}" placeholder="Enter first name" autocomplete="name" />
+            <label class="label">{{ $t('register.name') }}</label>
+            <input v-model="form.name" type="text" class="input" :class="{'input-error': errors.name}" :placeholder="$t('register.enterName')" autocomplete="name" />
             <p v-if="errors.name" class="error-msg">{{ errors.name }}</p>
           </div>
           <div>
-            <label class="label">Email Address</label>
-            <input v-model="form.email" type="email" class="input" :class="{'input-error': errors.email}" placeholder="Enter your email" autocomplete="email" />
+            <label class="label">{{ $t('register.email') }}</label>
+            <input v-model="form.email" type="email" class="input" :class="{'input-error': errors.email}" :placeholder="$t('register.enterEmail')" autocomplete="email" />
             <p v-if="errors.email" class="error-msg">{{ errors.email }}</p>
           </div>
           <div>
-            <label class="label">Password</label>
+            <label class="label">{{$t('register.password')}}</label>
             <div class="relative">
               <input
                 v-model="form.password"
                 :type="showPass ? 'text' : 'password'"
                 class="input"
                 :class="{'input-error': errors.password}"
-                placeholder="Enter your password"
+                :placeholder="$t('register.enterPassword')"
                 autocomplete="new-password"
               />
               <button type="button" @click="showPass = !showPass" class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600">
@@ -53,15 +50,15 @@
           </div>
 
           <div>
-            <label class="label">Confirm Password</label>
-            <input v-model="form.confirm" :type="showPass ? 'text' : 'password'" class="input" :class="{'input-error': errors.confirm}" placeholder="Repeat password" autocomplete="new-password" />
+            <label class="label">{{$t('register.confirm')}}</label>
+            <input v-model="form.confirm" :type="showPass ? 'text' : 'password'" class="input" :class="{'input-error': errors.confirm}" :placeholder="$t('register.confirmPassword')" autocomplete="new-password" />
             <p v-if="errors.confirm" class="error-msg">{{ errors.confirm }}</p>
           </div>
 
           <label class="flex items-start gap-3 cursor-pointer">
             <input v-model="agreedToTerms" type="checkbox" class="mt-0.5 w-4 h-4 rounded accent-primary-600 " />
             <span class="text-sm text-gray-600">
-              I agree to the <a href="#" class="text-primary-600 font-medium">Terms of Service</a> and
+              {{$t('register.agree')}} <a href="#" class="text-primary-600 font-medium">Terms of Service</a> {{$t('register.and')}}
               <a href="#" class="text-primary-600 font-medium">Privacy Policy</a>
             </span>
           </label>
@@ -80,12 +77,12 @@
           </button>
         </form>
         <p class="text-center text-sm text-gray-500 mt-6">
-          Already have an account?
-          <RouterLink to="/login" class="text-primary-600 font-semibold hover:text-primary-700">Sign in</RouterLink>
+          {{ $t('register.accoutn') }}
+          <RouterLink to="/login" class="text-primary-600 font-semibold hover:text-primary-700">{{ $t('register.signIn') }}</RouterLink>
         </p>
       </div>
       <p class="text-center text-primary-400 text-xs mt-6">
-        <RouterLink to="/" class="hover:text-white transition-colors">← Back to Store</RouterLink>
+        <RouterLink to="/" class="hover:text-white transition-colors">← {{ $t('register.backShop') }}</RouterLink>
       </p>
     </div>
   </div>
