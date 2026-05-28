@@ -41,12 +41,12 @@
         </span>
         <button
           :disabled="product.stock === 0 || isAdding"
-          class="flex items-center gap-1.5 text-sm font-semibold px-2.5 py-1.5 rounded-lg transition-all duration-200 cursor-pointer"
+          class="flex items-center gap-1.5 text-sm font-semibold px-2.5 py-1.5 rounded-xl transition-all duration-200 cursor-pointer"
           :class="isAdded
             ? 'bg-green-100 text-green-700'
             : product.stock === 0
               ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-              : 'bg-primary-50 text-primary-600 hover:bg-primary-600 hover:text-white'"
+              : 'bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white'"
         >
           <span v-if="isAdded">✓ {{ $t('products.added') }}</span>
           <span v-else-if="product.stock === 0">{{ $t('products.out_of_stock') }}</span>
