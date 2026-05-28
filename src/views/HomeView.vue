@@ -32,7 +32,7 @@
     </div>
   </section>
 
-  <section class="py-12 bg-white dark:bg-surface-900 ">
+  <section class="py-12 bg-white dark:bg-gray-900 ">
     <div class="container-xl">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
         <div v-for="feature in features" :key="feature.title"

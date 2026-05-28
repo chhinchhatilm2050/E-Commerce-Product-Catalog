@@ -13,7 +13,7 @@
           <li v-for="link in navLinks" :key="link.to">
             <RouterLink :to="link.to"
               class="px-4 py-2 rounded-xl font-medium text-gray-800 hover:text-gray-700 dark:text-gray-400 hover:bg-gray-100 transition-all duration-200 "
-              active-class="text-primary-600 bg-primary-50 dark:bg-primary-950 dark:text-primary-400 rounded-xl"
+              active-class="text-primary-600 bg-primary-100 dark:bg-primary-950 dark:text-primary-400 rounded-xl"
             >
               {{ $t(link.label) }}
             </RouterLink>
@@ -81,7 +81,7 @@
             <RouterLink
               v-else
               to="/login"
-              class="hidden sm:flex items-center gap-1.5 px-3.5 py-1.5 text-primary-600 bg-primary-50 rounded-xl hover:text-gray-700 dark:hover:text-gray-700 hover:bg-gray-100 dark:bg-primary-950 dark:text-gray-300 transition-all duration-200 "
+              class="hidden sm:flex items-center gap-1.5 px-3.5 py-1.5 text-primary-600 bg-primary-100 rounded-xl hover:text-gray-700 dark:hover:text-gray-700 hover:bg-gray-100 dark:bg-primary-950 dark:text-gray-300 transition-all duration-200 "
             >
               <i class="ri-login-box-line"></i>
               Login
