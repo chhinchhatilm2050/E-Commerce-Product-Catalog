@@ -9,7 +9,8 @@ export const useProductStrore = defineStore('products', () => {
   const filters = ref({
     category: 'all',
     search: '',
-    sortBy: 'default'
+    sortBy: 'default',
+    discount: 'all'
   });
 
   const filteredProducts = computed(() => {
@@ -18,6 +19,12 @@ export const useProductStrore = defineStore('products', () => {
     if(filters.value.category !== 'all') {
       result = result.filter(p => p.category === filters.value.category)
     };
+    console.log(filters.value.discount);
+    if (filters.value.discount === 'Discount') {
+      result = result.filter(p => p.compare_at_price && p.compare_at_price > p.price)
+    } else if (filters.value.discount === 'Undiscount') {
+      result = result.filter(p => !p.compare_at_price || p.compare_at_price <= p.price)
+    }
 
     if(filters.value.search.trim()) {
       const q = filters.value.search.toLowerCase();
@@ -81,7 +88,7 @@ export const useProductStrore = defineStore('products', () => {
   };
 
   const clearFilters = () => {
-    filters.value = { category: 'all', search: '', sortBy: 'default' }
+    filters.value = { category: 'all', search: '', sortBy: 'default', discount: 'all' }
   }
 
   return {

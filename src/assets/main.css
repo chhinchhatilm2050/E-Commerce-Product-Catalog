@@ -47,6 +47,7 @@
   --animate-pulse-soft: pulseSoft 2s   ease-in-out infinite;
 }
 
+
 @keyframes fadeIn    { from { opacity: 0 }                           to { opacity: 1 } }
 @keyframes slideUp   { from { opacity: 0; translate: 0 20px }        to { opacity: 1; translate: 0 0 } }
 @keyframes slideDown { from { opacity: 0; translate: 0 -10px }       to { opacity: 1; translate: 0 0 } }
@@ -105,13 +106,13 @@
   }
 
   .card {
-    @apply bg-white rounded-2xl overflow-hidden transition-all duration-300;
+    @apply bg-white rounded-md overflow-hidden transition-all duration-300;
     box-shadow: var(--shadow-card);
     &:hover { box-shadow: var(--shadow-card-lg); }
   }
 
   .input {
-    @apply w-full px-3 py-2 border border-gray-200 rounded-xl
+    @apply w-full px-3 py-2 border border-gray-200 rounded-md
     bg-white text-gray-800 placeholder:text-gray-400 placeholder:text-sm dark:placeholder:text-gray-600
     focus:outline-none focus:ring-2 focus:ring-primary-400 focus:border-transparent
     transition-all duration-200;
@@ -130,7 +131,7 @@
   }
 
   .badge {
-    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold;
+    @apply flex items-center justify-center px-2 py-1 rounded-sm text-xs font-semibold;
   }
 
   .badge-electronics { @apply bg-primary-50  text-primary-600; }

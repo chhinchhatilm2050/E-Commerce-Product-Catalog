@@ -97,6 +97,9 @@
         "reviews": "យោបល់",
         "in_stock": "ក្នុងស្តុក",
         "clear_filters": "លុបការត្រង",
-        "results_count": "ផលិតផល {count} ត្រូវបានរកឃើញ"
+        "results_count": "ផលិតផល {count} ត្រូវបានរកឃើញ",
+        "discount": "បញ្ចុះតម្លៃ",
+        "undiscount": "មិនបញ្ចុះតម្លៃ",
+        "all": "ទាំងអស់"
     }
 }

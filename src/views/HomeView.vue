@@ -55,7 +55,7 @@
       <RouterLink
         v-for="cat in categories"
         :key="cat.name" :to="`/products?category=${encodeURIComponent(cat.name)}`"
-        class="group relative rounded-2xl overflow-hidden aspect-square"
+        class="group relative rounded-md overflow-hidden aspect-square"
       >
         <img :src="cat.image" :alt="cat.name" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>

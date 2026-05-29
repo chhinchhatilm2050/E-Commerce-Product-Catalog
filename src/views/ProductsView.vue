@@ -5,7 +5,7 @@
       <p class="text-gray-500">{{ $t('products.subtitle') }}</p>
     </div>
 
-    <div class="flex flex-col sm:flex-row gap-4 mb-6 justify-between">
+    <div class="flex flex-col sm:flex-row sm:w-full gap-4 mb-6 justify-between">
       <div class="relative flex-1 max-w-md">
         <div class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">
           <i class="ri-search-line"></i>
@@ -22,7 +22,7 @@
     </div>
 
     <div class="mb-8">
-      <ProductFilter v-model="selectedCategory"/>
+      <ProductFilter v-model="selectedCategory" v-model:discountValue="selectedDiscount"/>
     </div>
 
     <p v-if="!productStore.loading" class="text-sm text-gray-500 mb-5">
@@ -38,7 +38,7 @@
   </div>
 </template>
 <script setup>
-  import { watch, ref, onMounted } from 'vue';
+  import { watch, ref, onMounted, computed } from 'vue';
   import { useRoute } from 'vue-router';
   import { useProductStrore } from '@/stores/products.js';
   import { useDebounce } from '@/composables/useDebounce.js';
@@ -52,25 +52,35 @@
 
   const searchQuery = ref('');
   const selectedCategory = ref('all');
+  const selectedDiscount = ref('all');
   const sortBy = ref('default');
   const toastVisible = ref(false);
-  const toastMssage = ref('');
+  const toastMssage = ref('all');
   const { t } = useI18n();
 
   const debouncedSearch = useDebounce(searchQuery, 300);
+  const categoryQuery = computed(() => route.query.category)
 
   watch(debouncedSearch, val => productStore.setFilter('search', val));
   watch(selectedCategory, val => productStore.setFilter('category', val));
   watch(sortBy, val => productStore.setFilter('sortBy', val));
+  watch(selectedDiscount, val => productStore.setFilter('discount', val), { immediate: true });
+
+  watch(categoryQuery, async (cat) => {
+    selectedCategory.value = cat ? decodeURIComponent(cat) : 'all';
+  },
+  {immediate: true}
+  );
+  // watch(() => route.query.category,
+  //   async (cat) => {
+  //     selectedCategory.value = cat ? decodeURIComponent(cat) : 'all';
+  //   },
+  //   { immediate: true }
+  // );
 
   onMounted(async () => {
     if (productStore.products.length === 0) {
       await productStore.fetchProducts();
-    }
-
-    if(route.query.category) {
-      selectedCategory.value = decodeURIComponent(route.query.category);
-      productStore.setFilter('category', selectedCategory.value);
     }
   });
 

@@ -1,10 +1,10 @@
 <template>
-  <div class="flex items-center gap-2">
+  <div class="flex items-center gap-2 ">
     <label class=" label shrink-0">{{ $t('products.sort_label') }}:</label>
     <select
       :value="modelValue"
       @change="$emit('update:modelValue', $event.target.value)"
-      class="input py-2.5 w-auto pr-8 min-w-[180px]">
+      class="input py-2.5 lg:w-full pr-8 min-w-[180px]">
       <option
         v-for="option in sortOptions"
         :key="option.value"
