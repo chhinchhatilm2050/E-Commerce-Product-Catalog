@@ -98,6 +98,9 @@
         "reviews": "reviews",
         "in_stock": "in stock",
         "clear_filters": "Clear Filters",
-        "results_count": "{count} products found"
+        "results_count": "{count} products found",
+        "discount": "Discount",
+        "undiscount": "Undiscount",
+        "all": "All"
     }
 }
