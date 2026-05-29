@@ -9,12 +9,19 @@
         @error="handleImgError"
       >
 
-      <span :class="['badge absolute top-3 left-3', categoryBadgeClass]">
-        {{ $t('products.' + categoryKey) }}
+      <span v-if="discountPrice > 0" class="badge absolute top-3 left-3  bg-red-600 text-gray-200 flex items-center justify-center">
+       -{{ discountPrice }} %
       </span>
 
-      <span v-if="product.stock <= 5" class="badge absolute top-3 right-3 bg-red-100 text-red-600">
-        Low stock
+
+      <span v-if="product.stock <= 5 && product.stock > 0" class="badge absolute top-3 right-3  bg-red-600 text-gray-200">
+        Low Stock
+      </span>
+      <span v-else-if="product.stock === 0" class="badge absolute top-3 right-3 bg-red-600 text-gray-200">
+        Sold Out
+      </span>
+      <span v-else class="badge absolute top-3 right-3 bg-gray-200 text-gray-900">
+        {{ product.stock }} In Stock
       </span>
     </div>
 
@@ -36,24 +43,26 @@
       </div>
 
       <div class="flex items-center justify-between mt-auto">
-        <span class="font-display font-bold text-lg text-gray-700 dark:text-white">
-          ${{ product.price.toFixed(2) }}
-        </span>
+        <div class="flex gap-1 items-center justify-center">
+          <span class="font-display font-bold text-lg text-gray-700 dark:text-white">
+            ${{ product.price.toFixed(2) }}
+          </span>
+          <span v-if="discountPrice > 0" class="font-display line-through text-sm text-red-600 dark:text-red-500-white">
+            ${{ product.compare_at_price.toFixed(2) }}
+          </span>
+        </div>
         <button
           :disabled="product.stock === 0 || isAdding"
-          class="flex items-center gap-1.5 text-sm font-semibold px-2.5 py-1.5 rounded-xl transition-all duration-200 cursor-pointer"
+          class="flex items-center text-sm px-2.5 py-1.5 rounded-md transition-all duration-200 cursor-pointer disabled:cursor-not-allowed"
           :class="isAdded
             ? 'bg-green-100 text-green-700'
             : product.stock === 0
               ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-              : 'bg-primary-100 text-primary-600 hover:bg-primary-600 hover:text-white'"
+              : 'bg-primary-100 text-primary-600 font-medium dark:text-primary-400 dark:bg-primary-950 hover:bg-gray-200 hover:text-gray-700'"
         >
           <span v-if="isAdded">✓ {{ $t('products.added') }}</span>
           <span v-else-if="product.stock === 0">{{ $t('products.out_of_stock') }}</span>
           <span v-else>
-            <svg class="w-3.5 h-3.5 inline mr-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
-            </svg>
             {{ $t('products.add_to_cart') }}
           </span>
         </button>
@@ -71,25 +80,28 @@
   });
 
   const router = useRouter();
-  const categoryKey = computed(() => {
-    const map = {
-      'Electronics':   'electronics',
-      'Clothing':      'clothing',
-      'Books':         'books',
-      'Home & Garden': 'home_garden'
-    }
-    return map[props.product.category] || 'electronics'
-  });
 
-  const categoryBadgeClass = computed(() => {
-    const map = {
-      'Electronics':   'badge-electronics',
-      'Clothing':      'badge-clothing',
-      'Books':         'badge-books',
-      'Home & Garden': 'badge-home'
-    }
-    return map[props.product.category] || 'badge-electronics'
-  });
+  const discountPrice = computed(() => Math.round((1 - props.product.price / props.product.compare_at_price) * 100));
+
+  // const categoryKey = computed(() => {
+  //   const map = {
+  //     'Electronics':   'electronics',
+  //     'Clothing':      'clothing',
+  //     'Books':         'books',
+  //     'Home & Garden': 'home_garden'
+  //   }
+  //   return map[props.product.category] || 'electronics'
+  // });
+
+  // const categoryBadgeClass = computed(() => {
+  //   const map = {
+  //     'Electronics':   'badge-electronics',
+  //     'Clothing':      'badge-clothing',
+  //     'Books':         'badge-books',
+  //     'Home & Garden': 'badge-home'
+  //   }
+  //   return map[props.product.category] || 'badge-electronics'
+  // });
 
   const navigateToDetail = () => {
     router.push({name: 'product-detail', params: {id: props.product}})

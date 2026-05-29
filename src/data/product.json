@@ -4,6 +4,7 @@
     "name": "Sony WH-1000XM5 Headphones",
     "description": "Industry-leading noise canceling with two processors and eight microphones. Optimized for calls with precise voice pickup and natural sounding calls. Up to 30-hour battery life with quick charge.",
     "price": 349.99,
+    "compare_at_price": 399.99,
     "category": "Electronics",
     "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=600&q=80",
     "images": [
@@ -25,7 +26,8 @@
     "id": 2,
     "name": "Apple iPad Pro 12.9\" M2",
     "description": "The most powerful iPad ever. With the M2 chip, stunning Liquid Retina XDR display, and an all-day battery, it's a portable powerhouse for creative professionals.",
-    "price": 1099,
+    "price": 1099.00,
+    "compare_at_price": 1199.00,
     "category": "Electronics",
     "image": "https://i.pinimg.com/736x/b8/4e/bd/b84ebd058c28d61d13ffe2ffc202e0d1.jpg",
     "images": [
@@ -34,7 +36,7 @@
       "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=800&q=80"
     ],
     "rating": 4.9,
-    "stock": 8,
+    "stock": 0,
     "specifications": {
       "brand": "Apple",
       "model": "iPad Pro M2",
@@ -49,6 +51,7 @@
     "name": "Mechanical Gaming Keyboard RGB",
     "description": "Tactile Cherry MX Blue switches with full per-key RGB backlighting. Aircraft-grade aluminum frame, N-key rollover, and programmable macros. Built for marathon gaming sessions.",
     "price": 129.99,
+    "compare_at_price": 149.99,
     "category": "Electronics",
     "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&q=80",
     "images": [
@@ -71,6 +74,7 @@
     "name": "4K UHD Webcam Pro",
     "description": "Crystal-clear 4K video for professional streaming and video conferencing. Built-in AI-powered background blur, auto-framing, and studio-quality stereo microphone.",
     "price": 89.99,
+    "compare_at_price": 89.99,
     "category": "Electronics",
     "image": "https://images.unsplash.com/photo-1622977268951-3f39c6b0e3d8?w=600&q=80",
     "images": [
@@ -93,6 +97,7 @@
     "name": "Premium Linen Oxford Shirt",
     "description": "Crafted from 100% premium Irish linen, this breathable Oxford shirt is perfect for both casual and smart-casual occasions. Features a relaxed fit with a spread collar.",
     "price": 79.99,
+    "compare_at_price": 95.00,
     "category": "Clothing",
     "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80",
     "images": [
@@ -114,7 +119,8 @@
     "id": 6,
     "name": "Merino Wool Crewneck Sweater",
     "description": "Ultra-soft extra-fine Merino wool sweater with a classic crewneck silhouette. Naturally temperature-regulating and odor-resistant. A timeless wardrobe staple.",
-    "price": 119,
+    "price": 119.00,
+    "compare_at_price": 119.00,
     "category": "Clothing",
     "image": "https://i.pinimg.com/1200x/1f/5f/f8/1f5ff884ea596c7b534e636c1ce4d4bc.jpg",
     "images": [
@@ -137,6 +143,7 @@
     "name": "Running Shoes AeroMax Pro",
     "description": "Engineered for speed and comfort with carbon fiber plate and ZoomX foam cushioning. Designed for competitive road racing with a lightweight, breathable upper.",
     "price": 199.99,
+    "compare_at_price": 250.00,
     "category": "Clothing",
     "image": "https://i.pinimg.com/736x/11/2a/b1/112ab1c34969200d14ffdfdca2208e2a.jpg",
     "images": [
@@ -159,6 +166,7 @@
     "name": "Atomic Habits – James Clear",
     "description": "The #1 New York Times bestseller. An easy and proven way to build good habits and break bad ones. James Clear distills the most fundamental information about habit formation.",
     "price": 18.99,
+    "compare_at_price": 27.00,
     "category": "Books",
     "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&q=80",
     "images": [
@@ -181,6 +189,7 @@
     "name": "Deep Work – Cal Newport",
     "description": "Rules for focused success in a distracted world. Cal Newport makes the bold claim that cultivating a deep work ethic will produce massive benefits in an increasingly distracted world.",
     "price": 15.49,
+    "compare_at_price": 28.00,
     "category": "Books",
     "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=600&q=80",
     "images": [
@@ -202,7 +211,8 @@
     "id": 10,
     "name": "The Design of Everyday Things",
     "description": "A powerful primer on how and why some products satisfy customers while others only frustrate them. A classic in cognitive science and design — essential reading for designers.",
-    "price": 22,
+    "price": 22.00,
+    "compare_at_price": 22.00,
     "category": "Books",
     "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=600&q=80",
     "images": [
@@ -225,6 +235,7 @@
     "name": "Smart Planter with Self-Watering",
     "description": "Modern ceramic planter with a built-in water reservoir that keeps your plants perfectly hydrated for up to 3 weeks. Includes a water level indicator and drainage system.",
     "price": 44.99,
+    "compare_at_price": 59.99,
     "category": "Home & Garden",
     "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80",
     "images": [
@@ -246,7 +257,8 @@
     "id": 12,
     "name": "Luxury Scented Candle Set",
     "description": "A curated collection of three hand-poured soy wax candles with natural wood wicks. Fragrances: Bergamot & Cedar, Amber & Vanilla, Sea Salt & Driftwood. 45 hrs burn time each.",
-    "price": 58,
+    "price": 58.00,
+    "compare_at_price": 75.00,
     "category": "Home & Garden",
     "image": "https://images.unsplash.com/photo-1602028915047-37269d1a73f7?w=600&q=80",
     "images": [
@@ -268,7 +280,8 @@
     "id": 13,
     "name": "Ergonomic Office Chair Pro",
     "description": "Full lumbar support with adjustable armrests, seat depth, and headrest. Breathable mesh back keeps you cool. 4D adjustability for personalized comfort during long work sessions.",
-    "price": 449,
+    "price": 449.00,
+    "compare_at_price": 599.00,
     "category": "Home & Garden",
     "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=600&q=80",
     "images": [
@@ -291,6 +304,7 @@
     "name": "Portable Bluetooth Speaker",
     "description": "360° room-filling sound with a compact waterproof design. IP67 rated for full water submersion. 24-hour battery life and dual stereo pairing for massive sound.",
     "price": 149.99,
+    "compare_at_price": 179.99,
     "category": "Electronics",
     "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&q=80",
     "images": [
@@ -313,6 +327,7 @@
     "name": "Samsung 27\" 4K Monitor",
     "description": "Ultra-slim 4K UHD IPS panel with 99% sRGB color accuracy, HDR600, and 5ms response time. Ideal for designers, video editors, and productivity power users.",
     "price": 399.99,
+    "compare_at_price": 449.99,
     "category": "Electronics",
     "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&q=80",
     "images": [
@@ -335,6 +350,7 @@
     "name": "Wireless Ergonomic Mouse",
     "description": "Contoured ergonomic design reduces wrist strain during long sessions. Silent clicks, 7 programmable buttons, and a 70-day battery life on a single AA battery.",
     "price": 49.99,
+    "compare_at_price": 59.99,
     "category": "Electronics",
     "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&q=80",
     "images": [
@@ -357,6 +373,7 @@
     "name": "USB-C 100W Charging Hub",
     "description": "12-in-1 USB-C hub with 100W Power Delivery, 4K HDMI, SD/TF card reader, 3× USB-A 3.0, Ethernet, and 3.5mm audio. Perfect for laptop docking on the go.",
     "price": 64.99,
+    "compare_at_price": 79.99,
     "category": "Electronics",
     "image": "https://images.unsplash.com/photo-1625895197185-efcec01cffe0?w=600&q=80",
     "images": [
@@ -378,7 +395,8 @@
     "id": 18,
     "name": "Noise-Cancelling Earbuds Pro",
     "description": "Active noise cancellation with Adaptive Transparency mode. Custom-fit ear tips with H2 chip for unmatched audio performance. Resistance to sweat and water (IPX4).",
-    "price": 249,
+    "price": 249.00,
+    "compare_at_price": 249.00,
     "category": "Electronics",
     "image": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=600&q=80",
     "images": [
@@ -400,7 +418,8 @@
     "id": 19,
     "name": "Smart Watch Series X",
     "description": "Advanced health tracking with ECG, blood oxygen monitoring, and crash detection. Always-on Retina display with 18-hour battery life. Swimproof to 50 meters.",
-    "price": 399,
+    "price": 399.00,
+    "compare_at_price": 399.00,
     "category": "Electronics",
     "image": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600&q=80",
     "images": [
@@ -423,6 +442,7 @@
     "name": "Portable SSD 2TB",
     "description": "Blazing-fast read speeds up to 2000MB/s in a palm-sized rugged design. USB 3.2 Gen 2×2 interface, drop-proof up to 3 meters, and password protection.",
     "price": 179.99,
+    "compare_at_price": 199.99,
     "category": "Electronics",
     "image": "https://images.unsplash.com/photo-1597300122301-9e2f1e78e74f?w=600&q=80",
     "images": [
@@ -445,6 +465,7 @@
     "name": "Classic Slim Chino Pants",
     "description": "Tailored slim-fit chinos in stretch cotton twill for all-day comfort. Wrinkle-resistant finish, versatile for office or weekend wear. Available in 8 colours.",
     "price": 59.99,
+    "compare_at_price": 69.99,
     "category": "Clothing",
     "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&q=80",
     "images": [
@@ -466,7 +487,8 @@
     "id": 22,
     "name": "Women's Yoga Leggings",
     "description": "High-waisted compression leggings in buttery-soft Nulu fabric. Four-way stretch, sweat-wicking, and squat-proof. Side pockets for phone and keys.",
-    "price": 98,
+    "price": 98.00,
+    "compare_at_price": 98.00,
     "category": "Clothing",
     "image": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&q=80",
     "images": [
@@ -488,7 +510,8 @@
     "id": 23,
     "name": "Waterproof Hiking Jacket",
     "description": "3-layer GORE-TEX shell with fully taped seams, helmet-compatible hood, and pit-zip ventilation. Packs into its own pocket. Perfect for mountain and trail use.",
-    "price": 289,
+    "price": 289.00,
+    "compare_at_price": 349.00,
     "category": "Clothing",
     "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&q=80",
     "images": [
@@ -510,7 +533,8 @@
     "id": 24,
     "name": "Leather Chelsea Boots",
     "description": "Full-grain calfskin leather Chelsea boots with elastic side panels and a pull-tab. Goodyear-welted construction for superior durability and resolability.",
-    "price": 245,
+    "price": 245.00,
+    "compare_at_price": 245.00,
     "category": "Clothing",
     "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
     "images": [
@@ -532,7 +556,8 @@
     "id": 25,
     "name": "Slim Fit Denim Jeans",
     "description": "Tapered slim-fit jeans in authentic selvedge Japanese denim. Medium indigo wash with subtle fading. Designed for a modern silhouette without sacrificing mobility.",
-    "price": 135,
+    "price": 135.00,
+    "compare_at_price": 165.00,
     "category": "Clothing",
     "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
     "images": [
@@ -554,7 +579,8 @@
     "id": 26,
     "name": "Packable Down Puffer Vest",
     "description": "700-fill power goose down vest with a water-repellent shell. Packs into its chest pocket. Lightweight warmth for layering on cold days without restricting arm movement.",
-    "price": 89,
+    "price": 89.00,
+    "compare_at_price": 110.00,
     "category": "Clothing",
     "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
     "images": [
@@ -577,6 +603,7 @@
     "name": "The Lean Startup – Eric Ries",
     "description": "How today's entrepreneurs use continuous innovation to create radically successful businesses. A must-read for anyone building a product or company in the modern era.",
     "price": 17.99,
+    "compare_at_price": 24.95,
     "category": "Books",
     "image": "https://images.unsplash.com/photo-1555421689-491a97ff2040?w=600&q=80",
     "images": [
@@ -599,6 +626,7 @@
     "name": "Thinking, Fast and Slow",
     "description": "Nobel laureate Daniel Kahneman's groundbreaking exploration of the two systems that drive the way we think — fast, intuitive thinking and slow, deliberate thinking.",
     "price": 19.99,
+    "compare_at_price": 19.99,
     "category": "Books",
     "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=600&q=80",
     "images": [
@@ -621,6 +649,7 @@
     "name": "Zero to One – Peter Thiel",
     "description": "Notes on startups, or how to build the future. Peter Thiel shares the contrarian thinking that made PayPal and Palantir into global powerhouses.",
     "price": 14.99,
+    "compare_at_price": 26.00,
     "category": "Books",
     "image": "https://images.unsplash.com/photo-1474932430478-367dbb6832c1?w=600&q=80",
     "images": [
@@ -643,6 +672,7 @@
     "name": "The Pragmatic Programmer",
     "description": "Your journey to mastery. The classic guide to software development best practices, from DRY principles to refactoring and career advice for working developers.",
     "price": 49.99,
+    "compare_at_price": 49.99,
     "category": "Books",
     "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
     "images": [
@@ -665,6 +695,7 @@
     "name": "Clean Code – Robert C. Martin",
     "description": "A handbook of agile software craftsmanship. Robert Martin explains the principles, patterns, and practices of writing clean, readable, and maintainable code.",
     "price": 44.99,
+    "compare_at_price": 44.99,
     "category": "Books",
     "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&q=80",
     "images": [
@@ -687,6 +718,7 @@
     "name": "Outdoor Garden String Lights",
     "description": "50ft waterproof LED string lights with 25 shatterproof Edison-style bulbs. Perfect for patios, pergolas, and backyard gatherings. Warm white 2700K glow.",
     "price": 34.99,
+    "compare_at_price": 49.99,
     "category": "Home & Garden",
     "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=600&q=80",
     "images": [
@@ -709,6 +741,7 @@
     "name": "Cast Iron Dutch Oven 5.5 Qt",
     "description": "Enamelled cast iron Dutch oven with superior heat retention for slow cooking, braising, and baking. Compatible with all cooktops including induction. Oven-safe to 500°F.",
     "price": 119.95,
+    "compare_at_price": 119.95,
     "category": "Home & Garden",
     "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=600&q=80",
     "images": [
@@ -731,6 +764,7 @@
     "name": "Bamboo Bathroom Organizer Set",
     "description": "5-piece bamboo bathroom countertop organizer. Includes toothbrush holder, soap dispenser, cotton jar, tray, and tumbler. Sustainable and moisture-resistant.",
     "price": 39.99,
+    "compare_at_price": 49.99,
     "category": "Home & Garden",
     "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=80",
     "images": [
@@ -752,7 +786,8 @@
     "id": 35,
     "name": "Linen Duvet Cover Set Queen",
     "description": "100% stone-washed French linen duvet cover with two matching pillowcases. Gets softer with every wash. Button closure and interior ties. Available in 12 colours.",
-    "price": 149,
+    "price": 149.00,
+    "compare_at_price": 189.00,
     "category": "Home & Garden",
     "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80",
     "images": [
@@ -775,6 +810,7 @@
     "name": "Wall-Mount Floating Shelves Set",
     "description": "Set of 3 solid walnut floating shelves with invisible brackets. Each shelf holds up to 30 lbs. No-stud mounting system included. Ideal for living room display.",
     "price": 74.99,
+    "compare_at_price": 89.99,
     "category": "Home & Garden",
     "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
     "images": [
@@ -797,6 +833,7 @@
     "name": "Essential Oil Diffuser 500ml",
     "description": "Ultrasonic aromatherapy diffuser with 7 LED colour modes and auto shut-off. Runs up to 12 hours on a single fill. Whisper-quiet operation for bedroom use.",
     "price": 35.99,
+    "compare_at_price": 45.99,
     "category": "Home & Garden",
     "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=600&q=80",
     "images": [
@@ -809,8 +846,8 @@
     "specifications": {
       "brand": "URPOWER",
       "capacity": "500 ml",
+      "modes": "7 LED Colours",
       "runtime": "12 hours",
-      "led": "7 colour modes",
       "warranty": "1 Year"
     }
   },
@@ -819,6 +856,7 @@
     "name": "Stainless Steel Water Bottle 1L",
     "description": "Triple-wall vacuum-insulated bottle keeps drinks cold 48 hrs or hot 24 hrs. BPA-free, leakproof lid with carry loop. Wide mouth fits standard ice cubes.",
     "price": 39.95,
+    "compare_at_price": 45.00,
     "category": "Sports & Outdoors",
     "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&q=80",
     "images": [
@@ -841,12 +879,13 @@
     "name": "Foam Yoga Mat 6mm",
     "description": "Non-slip eco-friendly TPE yoga mat with alignment lines and carry strap. 6mm cushioning for joint support. Moisture-resistant and easy to clean.",
     "price": 45,
+    "compare_at_price": 45,
     "category": "Sports & Outdoors",
     "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80",
     "images": [
       "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
       "https://images.unsplash.com/photo-1601925228096-c1baf53a22c5?w=800&q=80",
-      "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&q=80"
+      "https://images.unsplash.com/photo-159901860904-17e6ed7083a0?w=800&q=80"
     ],
     "rating": 4.6,
     "stock": 75,
@@ -863,6 +902,7 @@
     "name": "Adjustable Dumbbell Set 5–52.5 lbs",
     "description": "Replaces 15 sets of weights in one compact design. Dial-select system adjusts in 2.5 lb increments up to 25 lbs, then 5 lb up to 52.5 lbs. Ideal for home gyms.",
     "price": 349,
+    "compare_at_price": 399,
     "category": "Sports & Outdoors",
     "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&q=80",
     "images": [
@@ -885,6 +925,7 @@
     "name": "Trekking Poles Carbon Fiber",
     "description": "Ultralight 3-section carbon fibre trekking poles with cork grips. Quick-lock adjustment, foam wrist straps, and interchangeable baskets for trail and snow use.",
     "price": 129.99,
+    "compare_at_price": 149.99,
     "category": "Sports & Outdoors",
     "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=600&q=80",
     "images": [
@@ -907,6 +948,7 @@
     "name": "Cycling Helmet MIPS",
     "description": "Aero road cycling helmet with MIPS brain protection system, 20 vents, and adjustable retention dial. Lightweight 280g shell meets CPSC and CE EN1078 safety standards.",
     "price": 149.99,
+    "compare_at_price": 149.99,
     "category": "Sports & Outdoors",
     "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
     "images": [
@@ -929,6 +971,7 @@
     "name": "Resistance Bands Set (5 Levels)",
     "description": "Set of 5 latex resistance bands from 10 to 50 lbs. Ideal for stretching, strength training, and physiotherapy. Comes with a mesh carry bag and exercise guide.",
     "price": 29.99,
+    "compare_at_price": 39.99,
     "category": "Sports & Outdoors",
     "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80",
     "images": [
@@ -951,6 +994,7 @@
     "name": "Camping Sleeping Bag -10°C",
     "description": "3-season mummy sleeping bag rated to -10°C with 650 fill-power duck down. Trapezoidal footbox, draft collar, and full-length anti-snag zipper. Packs to 5L.",
     "price": 169,
+    "compare_at_price": 199,
     "category": "Sports & Outdoors",
     "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80",
     "images": [
@@ -973,6 +1017,7 @@
     "name": "Instax Mini 12 Instant Camera",
     "description": "Compact instant film camera with automatic exposure, selfie mode mirror, and close-up lens attachment. Produces credit-card-sized prints in seconds.",
     "price": 79.99,
+    "compare_at_price": 89.99,
     "category": "Electronics",
     "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80",
     "images": [
@@ -995,6 +1040,7 @@
     "name": "E-Ink E-Reader 7\" Waterproof",
     "description": "Glare-free 300 PPI e-ink display with adjustable warm light. IPX8 waterproof, weeks of battery life, and 32GB storage for thousands of books. Thin at 8.9mm.",
     "price": 189.99,
+    "compare_at_price": 189.99,
     "category": "Electronics",
     "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
     "images": [
@@ -1017,6 +1063,7 @@
     "name": "Smart Home Security Camera",
     "description": "2K QHD indoor security camera with AI human detection, two-way audio, and colour night vision. Works with Alexa and Google Assistant. Local and cloud storage.",
     "price": 54.99,
+    "compare_at_price": 69.99,
     "category": "Electronics",
     "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
     "images": [
@@ -1039,6 +1086,7 @@
     "name": "Graphic Novel: Maus – Art Spiegelman",
     "description": "The Pulitzer Prize-winning graphic novel about the Holocaust told through the metaphor of cats and mice. A landmark work of literature and sequential art.",
     "price": 24.99,
+    "compare_at_price": 24.99,
     "category": "Books",
     "image": "https://images.unsplash.com/photo-1535666669445-e8c15cd2e7d9?w=600&q=80",
     "images": [
@@ -1061,6 +1109,7 @@
     "name": "Educated – Tara Westover",
     "description": "A memoir about a young girl who, kept out of school, leaves her survivalist family and goes on to earn a PhD from Cambridge University. Unforgettable and inspiring.",
     "price": 16.99,
+    "compare_at_price": 26.00,
     "category": "Books",
     "image": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?w=600&q=80",
     "images": [
@@ -1083,6 +1132,7 @@
     "name": "The Psychology of Money",
     "description": "Timeless lessons on wealth, greed, and happiness. Morgan Housel shares 19 short stories exploring the ways people think about money through human history and behaviour.",
     "price": 17.99,
+    "compare_at_price": 25.00,
     "category": "Books",
     "image": "https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=600&q=80",
     "images": [
@@ -1105,6 +1155,7 @@
     "name": "Artisan Pour-Over Coffee Set",
     "description": "Hand-blown borosilicate glass pour-over dripper with gooseneck kettle, reusable stainless steel filter, and walnut stand. Brews a perfect 400ml cup every time.",
     "price": 84,
+    "compare_at_price": 99,
     "category": "Kitchen",
     "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80",
     "images": [
@@ -1127,6 +1178,7 @@
     "name": "Chef's Knife 8\" German Steel",
     "description": "Hand-forged high-carbon German stainless steel chef's knife with a full-tang ergonomic pakkawood handle. Rockwell hardness 58, factory-sharpened to 15° edge.",
     "price": 99.95,
+    "compare_at_price": 120.00,
     "category": "Kitchen",
     "image": "https://images.unsplash.com/photo-1566454419290-57a64afe30ac?w=600&q=80",
     "images": [
@@ -1149,6 +1201,7 @@
     "name": "Countertop Espresso Machine",
     "description": "15-bar pressure pump espresso machine with a built-in steam wand, programmable shot volume, and rapid heat system. Makes espresso, cappuccino, and latte.",
     "price": 299,
+    "compare_at_price": 299,
     "category": "Kitchen",
     "image": "https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=600&q=80",
     "images": [
@@ -1171,6 +1224,7 @@
     "name": "Ceramic Non-Stick Cookware Set",
     "description": "10-piece ceramic non-stick cookware set in matte black. PFOA/PTFE-free coating, oven-safe to 450°F, and compatible with all cooktops including induction.",
     "price": 189,
+    "compare_at_price": 220,
     "category": "Kitchen",
     "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=600&q=80",
     "images": [
@@ -1193,6 +1247,7 @@
     "name": "Vitamix Blender Pro 750",
     "description": "Professional-grade blender with 5 pre-programmed settings, 2.2HP motor, and hardened stainless steel blades. Self-cleaning in 60 seconds. Variable speed control.",
     "price": 549,
+    "compare_at_price": 599,
     "category": "Kitchen",
     "image": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=600&q=80",
     "images": [
@@ -1215,6 +1270,7 @@
     "name": "Air Fryer XL 6Qt",
     "description": "Digital air fryer with 7 preset cooking modes — air fry, roast, broil, bake, reheat, dehydrate, and keep warm. Dishwasher-safe basket. 6-quart capacity for family meals.",
     "price": 119.99,
+    "compare_at_price": 139.99,
     "category": "Kitchen",
     "image": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=600&q=80",
     "images": [
@@ -1237,6 +1293,7 @@
     "name": "Wooden Serving Board Large",
     "description": "Large end-grain acacia wood serving and charcuterie board with juice groove and built-in handles. Naturally antibacterial and knife-friendly. Measures 50 × 35 cm.",
     "price": 64,
+    "compare_at_price": 75,
     "category": "Kitchen",
     "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
     "images": [
@@ -1259,6 +1316,7 @@
     "name": "Digital Kitchen Scale 5kg",
     "description": "Precision 1g digital kitchen scale with tare function, unit conversion (g/oz/lb/ml), backlit LCD, and slim profile. Includes a stainless steel weighing platform.",
     "price": 24.99,
+    "compare_at_price": 29.99,
     "category": "Kitchen",
     "image": "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=600&q=80",
     "images": [
@@ -1281,6 +1339,7 @@
     "name": "Skincare Vitamin C Serum 30ml",
     "description": "20% stabilized Vitamin C with Vitamin E and Ferulic Acid for maximum antioxidant protection. Brightens dark spots, firms skin, and boosts collagen. Dermatologist tested.",
     "price": 58,
+    "compare_at_price": 68,
     "category": "Beauty",
     "image": "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=600&q=80",
     "images": [
@@ -1303,6 +1362,7 @@
     "name": "Retinol Night Cream 50ml",
     "description": "0.5% encapsulated retinol moisturiser with peptides and hyaluronic acid. Reduces fine lines overnight while maintaining the skin barrier. Fragrance-free formula.",
     "price": 42,
+    "compare_at_price": 42,
     "category": "Beauty",
     "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&q=80",
     "images": [
@@ -1319,885 +1379,10 @@
       "skin_type": "Normal to dry",
       "warranty": "N/A"
     }
-  },
-  {
-    "id": 61,
-    "name": "SPF 50 Mineral Sunscreen 100ml",
-    "description": "Lightweight, reef-safe mineral sunscreen with SPF 50 and PA++++. Non-greasy, invisible finish suitable for all skin tones. Water-resistant for 80 minutes.",
-    "price": 32,
-    "category": "Beauty",
-    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80",
-      "https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?w=800&q=80",
-      "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&q=80"
-    ],
-    "rating": 4.5,
-    "stock": 95,
-    "specifications": {
-      "brand": "EltaMD",
-      "spf": "50",
-      "size": "100 ml",
-      "type": "Mineral (Zinc Oxide)",
-      "warranty": "N/A"
-    }
-  },
-  {
-    "id": 62,
-    "name": "Hyaluronic Acid Toner 200ml",
-    "description": "Alcohol-free hydrating toner with 3-molecular-weight hyaluronic acid, niacinamide, and centella asiatica. Preps skin for better product absorption.",
-    "price": 28,
-    "category": "Beauty",
-    "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&q=80",
-      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800&q=80",
-      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&q=80"
-    ],
-    "rating": 4.6,
-    "stock": 112,
-    "specifications": {
-      "brand": "COSRX",
-      "key_ingredient": "Hyaluronic Acid + Niacinamide",
-      "size": "200 ml",
-      "skin_type": "All skin types",
-      "warranty": "N/A"
-    }
-  },
-  {
-    "id": 63,
-    "name": "Electric Facial Cleansing Brush",
-    "description": "Sonic silicone facial cleansing brush with 3 speeds and a waterproof design. Removes 99.5% of dirt and 2× more makeup than manual cleansing. USB rechargeable.",
-    "price": 49.99,
-    "category": "Beauty",
-    "image": "https://images.unsplash.com/photo-1580870069867-74c57ee1bb07?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1580870069867-74c57ee1bb07?w=800&q=80",
-      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800&q=80",
-      "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&q=80"
-    ],
-    "rating": 4.4,
-    "stock": 58,
-    "specifications": {
-      "brand": "Foreo",
-      "model": "Luna Mini 3",
-      "material": "Medical-grade Silicone",
-      "battery": "USB rechargeable",
-      "warranty": "2 Years"
-    }
-  },
-  {
-    "id": 64,
-    "name": "Perfume – Maison Margiela Replica",
-    "description": "Replica 'By the Fireplace' eau de toilette. Woody warm notes of chestnut, cashmeran, and guaiacwood with top notes of orange and pink pepper. 100ml.",
-    "price": 148,
-    "category": "Beauty",
-    "image": "https://images.unsplash.com/photo-1541643600914-78b084683702?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683702?w=800&q=80",
-      "https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=800&q=80",
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80"
-    ],
-    "rating": 4.8,
-    "stock": 27,
-    "specifications": {
-      "brand": "Maison Margiela",
-      "collection": "Replica",
-      "size": "100 ml",
-      "concentration": "Eau de Toilette",
-      "warranty": "N/A"
-    }
-  },
-  {
-    "id": 65,
-    "name": "Lip Gloss Set – 12 Shades",
-    "description": "High-shine non-sticky lip gloss set in 12 universally flattering shades. Infused with vitamin E and jojoba oil for lasting hydration. Vegan and cruelty-free.",
-    "price": 38,
-    "category": "Beauty",
-    "image": "https://images.unsplash.com/photo-1586495777744-4e6232bf7d4e?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1586495777744-4e6232bf7d4e?w=800&q=80",
-      "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&q=80",
-      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&q=80"
-    ],
-    "rating": 4.5,
-    "stock": 140,
-    "specifications": {
-      "brand": "NYX Professional",
-      "shades": "12",
-      "finish": "High-shine",
-      "vegan": "Yes",
-      "warranty": "N/A"
-    }
-  },
-  {
-    "id": 66,
-    "name": "Noise Machine & Sleep Sound Therapy",
-    "description": "30 soothing sounds including white noise, nature, and fan. Physical buttons, night light, and memory function. Compact design for home, office, or travel use.",
-    "price": 49.95,
-    "category": "Home & Garden",
-    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80",
-      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
-      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"
-    ],
-    "rating": 4.6,
-    "stock": 74,
-    "specifications": {
-      "brand": "LectroFan",
-      "model": "EVO",
-      "sounds": "30",
-      "power": "USB-A",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 67,
-    "name": "Smart LED Bulb E27 Color (4-Pack)",
-    "description": "16 million colour RGB + tunable white smart LED bulb. Works with Alexa, Google Home, and Apple HomeKit. Dimmable, no hub required, Wi-Fi controlled via app.",
-    "price": 44.99,
-    "category": "Home & Garden",
-    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=800&q=80",
-      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&q=80"
-    ],
-    "rating": 4.5,
-    "stock": 150,
-    "specifications": {
-      "brand": "Philips Hue",
-      "wattage": "9W (60W equiv.)",
-      "colors": "16 million",
-      "pack": "4",
-      "warranty": "2 Years"
-    }
-  },
-  {
-    "id": 68,
-    "name": "Robot Vacuum Cleaner Auto-Mapping",
-    "description": "LiDAR laser navigation robot vacuum with 4000Pa suction and 3-in-1 vacuuming, sweeping, and mopping. Obstacle avoidance, no-go zone mapping, and 180-min battery.",
-    "price": 449,
-    "category": "Home & Garden",
-    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80"
-    ],
-    "rating": 4.6,
-    "stock": 16,
-    "specifications": {
-      "brand": "Roborock",
-      "model": "S7 MaxV",
-      "suction": "4000 Pa",
-      "battery": "180 min",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 69,
-    "name": "Acrylic Paint Set 48 Colours",
-    "description": "Professional-grade heavy-body acrylic paints with intense pigments and smooth consistency. Suitable for canvas, wood, fabric, and ceramic. Each tube is 22ml.",
-    "price": 39.99,
-    "category": "Arts & Crafts",
-    "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
-      "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800&q=80",
-      "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&q=80"
-    ],
-    "rating": 4.6,
-    "stock": 88,
-    "specifications": {
-      "brand": "Liquitex",
-      "shades": "48",
-      "type": "Heavy Body Acrylic",
-      "tube_size": "22 ml",
-      "warranty": "N/A"
-    }
-  },
-  {
-    "id": 70,
-    "name": "Watercolour Brush Pen Set 36",
-    "description": "36 dual-tip watercolour brush pens with real nylon bristle tips and a fine liner tip. Water-based, blendable, and acid-free. Includes a water blending brush.",
-    "price": 28.99,
-    "category": "Arts & Crafts",
-    "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800&q=80",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
-      "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&q=80"
-    ],
-    "rating": 4.5,
-    "stock": 115,
-    "specifications": {
-      "brand": "Arteza",
-      "count": "36",
-      "tip": "Dual (brush + fine liner)",
-      "ink": "Water-based",
-      "warranty": "N/A"
-    }
-  },
-  {
-    "id": 71,
-    "name": "Lego Architecture Eiffel Tower",
-    "description": "2,710-piece Lego Architecture Eiffel Tower set. Intricate replica of the iconic Paris landmark reaching 59cm tall. Suitable for adults 18+. Great display piece.",
-    "price": 229.99,
-    "category": "Toys & Games",
-    "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80",
-      "https://images.unsplash.com/photo-1558877385-81a1c7e67d72?w=800&q=80",
-      "https://images.unsplash.com/photo-1597348989645-4b8cb3579b82?w=800&q=80"
-    ],
-    "rating": 4.9,
-    "stock": 31,
-    "specifications": {
-      "brand": "LEGO",
-      "set": "Architecture 10307",
-      "pieces": "2710",
-      "height": "59 cm",
-      "age": "18+"
-    }
-  },
-  {
-    "id": 72,
-    "name": "Chess Set Luxury Wooden",
-    "description": "Hand-carved solid rosewood and maple chess set with a folding board and storage compartment. King height 90mm, tournament weight with felt base. Gift-ready packaging.",
-    "price": 89,
-    "category": "Toys & Games",
-    "image": "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=800&q=80",
-      "https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?w=800&q=80",
-      "https://images.unsplash.com/photo-1580541631950-7282082b53ce?w=800&q=80"
-    ],
-    "rating": 4.7,
-    "stock": 42,
-    "specifications": {
-      "brand": "House of Chess",
-      "material": "Rosewood & Maple",
-      "king_height": "90 mm",
-      "board_size": "50 × 50 cm",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 73,
-    "name": "Sudoku & Logic Puzzle Book",
-    "description": "500 original Sudoku puzzles across 5 difficulty levels from beginner to expert. Compact A5 format, printed on thick paper, with solutions at the back.",
-    "price": 12.99,
-    "category": "Toys & Games",
-    "image": "https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?w=800&q=80",
-      "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=800&q=80",
-      "https://images.unsplash.com/photo-1580541631950-7282082b53ce?w=800&q=80"
-    ],
-    "rating": 4.4,
-    "stock": 200,
-    "specifications": {
-      "brand": "Puzzle Baron",
-      "puzzles": "500",
-      "levels": "5",
-      "format": "A5 Paperback",
-      "warranty": "N/A"
-    }
-  },
-  {
-    "id": 74,
-    "name": "Wireless Charging Pad 15W",
-    "description": "15W Qi2 fast wireless charging pad compatible with iPhone, Samsung, and all Qi-enabled devices. LED indicator, anti-slip silicone, and USB-C input. Ultra-slim 6mm profile.",
-    "price": 29.99,
-    "category": "Electronics",
-    "image": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&q=80",
-      "https://images.unsplash.com/photo-1601524909162-ae8fae2cbbb4?w=800&q=80",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
-    ],
-    "rating": 4.4,
-    "stock": 97,
-    "specifications": {
-      "brand": "Anker",
-      "model": "313 Charger Pad",
-      "wattage": "15W",
-      "standard": "Qi2",
-      "warranty": "18 Months"
-    }
-  },
-  {
-    "id": 75,
-    "name": "Mechanical Pencil Set Professional",
-    "description": "Set of 4 drafting mechanical pencils in 0.3, 0.5, 0.7, and 0.9mm. Metal barrel with knurled grip, retractable tip, and twist-advance eraser. Ideal for architects.",
-    "price": 32,
-    "category": "Arts & Crafts",
-    "image": "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=800&q=80",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
-      "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800&q=80"
-    ],
-    "rating": 4.7,
-    "stock": 66,
-    "specifications": {
-      "brand": "Rotring",
-      "model": "600 Series",
-      "sizes": "0.3 / 0.5 / 0.7 / 0.9 mm",
-      "material": "Brass barrel",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 76,
-    "name": "Men's Swim Shorts Quick-Dry",
-    "description": "Lightweight recycled polyester swim shorts with a mesh lining, side pockets, and zip back pocket. Quick-dry fabric dries in under 30 minutes. UPF 50+ protection.",
-    "price": 44.99,
-    "category": "Clothing",
-    "image": "https://images.unsplash.com/photo-1562183241-b937e95585b6?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1562183241-b937e95585b6?w=800&q=80",
-      "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=800&q=80",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
-    ],
-    "rating": 4.5,
-    "stock": 73,
-    "specifications": {
-      "brand": "Patagonia",
-      "material": "Recycled Polyester",
-      "upf": "50+",
-      "sizes": "XS – XXL",
-      "care": "Machine washable"
-    }
-  },
-  {
-    "id": 77,
-    "name": "Polarised Sunglasses UV400",
-    "description": "Lightweight titanium frame polarised sunglasses with UV400 and mirror coating. 8-base wraparound lens for peripheral protection. Includes hard case and cleaning cloth.",
-    "price": 159,
-    "category": "Clothing",
-    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&q=80",
-      "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=800&q=80"
-    ],
-    "rating": 4.6,
-    "stock": 36,
-    "specifications": {
-      "brand": "Oakley",
-      "frame": "Titanium",
-      "lens": "Polarised + UV400",
-      "sizes": "One size",
-      "warranty": "2 Years"
-    }
-  },
-  {
-    "id": 78,
-    "name": "Leather Bifold Wallet Slim",
-    "description": "Minimalist full-grain vegetable-tanned leather bifold wallet. RFID blocking, 6 card slots, and a cash section. Gets better with age. Fits in front pocket comfortably.",
-    "price": 65,
-    "category": "Clothing",
-    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&q=80",
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&q=80",
-      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80"
-    ],
-    "rating": 4.7,
-    "stock": 52,
-    "specifications": {
-      "brand": "Bellroy",
-      "material": "Full-grain Veg-tan Leather",
-      "rfid": "Yes",
-      "cards": "6",
-      "warranty": "3 Years"
-    }
-  },
-  {
-    "id": 79,
-    "name": "Gym Duffle Bag 40L",
-    "description": "Water-resistant 40L gym bag with a ventilated shoe compartment, wet/dry separation pocket, and padded laptop sleeve. Carry as hand luggage or over the shoulder.",
-    "price": 79.99,
-    "category": "Sports & Outdoors",
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
-      "https://images.unsplash.com/photo-1576435728678-68d0fbf94946?w=800&q=80",
-      "https://images.unsplash.com/photo-1527431293836-f47a7e4a4b01?w=800&q=80"
-    ],
-    "rating": 4.6,
-    "stock": 48,
-    "specifications": {
-      "brand": "Under Armour",
-      "capacity": "40 L",
-      "material": "210D Nylon",
-      "laptop_sleeve": "Yes",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 80,
-    "name": "Foam Roller High-Density 90cm",
-    "description": "Extra-firm high-density EVA foam roller for deep muscle recovery, myofascial release, and balance training. Grid texture for targeted massage. Holds up to 300 lbs.",
-    "price": 34.99,
-    "category": "Sports & Outdoors",
-    "image": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&q=80",
-      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
-      "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80"
-    ],
-    "rating": 4.5,
-    "stock": 92,
-    "specifications": {
-      "brand": "TriggerPoint",
-      "model": "GRID",
-      "length": "90 cm",
-      "material": "EVA Foam",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 81,
-    "name": "Ultraboost 5 Running Shoes",
-    "description": "Adidas Ultraboost 5 with Boost cushioning and Primeknit+ upper for responsive energy return and adaptive fit. Continental rubber outsole for superior grip in all conditions.",
-    "price": 189.95,
-    "category": "Clothing",
-    "image": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?w=800&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80",
-      "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=800&q=80"
-    ],
-    "rating": 4.7,
-    "stock": 23,
-    "specifications": {
-      "brand": "Adidas",
-      "model": "Ultraboost 5",
-      "sole": "Boost + Continental Rubber",
-      "sizes": "US 6 – 14",
-      "warranty": "6 Months"
-    }
-  },
-  {
-    "id": 82,
-    "name": "Laptop Stand Adjustable Aluminium",
-    "description": "Ergonomic aluminium laptop stand with 6 height settings from 5° to 25°. Hollow heat-dissipation design, foldable for travel, compatible with 10–17.3\" laptops.",
-    "price": 39.99,
-    "category": "Electronics",
-    "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80",
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800&q=80",
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80"
-    ],
-    "rating": 4.6,
-    "stock": 84,
-    "specifications": {
-      "brand": "Nexstand",
-      "material": "Aluminium Alloy",
-      "compatibility": "10 – 17.3 inch",
-      "angles": "6 settings",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 83,
-    "name": "Smart Thermostat Wi-Fi",
-    "description": "Learning smart thermostat with auto-schedule, energy history, and remote control via app. Compatible with Alexa, Google, and Apple HomeKit. Works with 95% of HVAC systems.",
-    "price": 249,
-    "category": "Home & Garden",
-    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&q=80",
-      "https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=800&q=80"
-    ],
-    "rating": 4.7,
-    "stock": 19,
-    "specifications": {
-      "brand": "Google",
-      "model": "Nest Learning Thermostat 4",
-      "compatibility": "95% of HVAC",
-      "smart_home": "Alexa / Google / HomeKit",
-      "warranty": "2 Years"
-    }
-  },
-  {
-    "id": 84,
-    "name": "Gratitude Journal – 90 Day",
-    "description": "Structured 90-day guided gratitude journal with morning affirmations, evening reflections, and weekly reviews. Premium linen cover, lay-flat binding, and cream pages.",
-    "price": 24.99,
-    "category": "Books",
-    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80",
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
-      "https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?w=800&q=80"
-    ],
-    "rating": 4.8,
-    "stock": 200,
-    "specifications": {
-      "brand": "Intelligent Change",
-      "pages": "160",
-      "duration": "90 days",
-      "binding": "Lay-flat",
-      "warranty": "N/A"
-    }
-  },
-  {
-    "id": 85,
-    "name": "Noise-Cancelling Headphones Kids",
-    "description": "Child-safe 85dB volume-limiting headphones with active noise cancellation. Foldable design, 30-hour battery, and built-in mic. Available in 6 colours.",
-    "price": 69.99,
-    "category": "Electronics",
-    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80",
-      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=800&q=80",
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
-    ],
-    "rating": 4.5,
-    "stock": 57,
-    "specifications": {
-      "brand": "Puro Sound Labs",
-      "model": "BT2200",
-      "volume_limit": "85 dB",
-      "battery": "30 hours",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 86,
-    "name": "Macro Photography Lens 100mm",
-    "description": "L-series 100mm f/2.8 macro lens with hybrid image stabilization and quiet STM autofocus motor. 1:1 magnification ratio for true life-size close-up photography.",
-    "price": 699,
-    "category": "Electronics",
-    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80",
-      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=800&q=80",
-      "https://images.unsplash.com/photo-1495121553079-4c61bcce1894?w=800&q=80"
-    ],
-    "rating": 4.8,
-    "stock": 11,
-    "specifications": {
-      "brand": "Canon",
-      "model": "EF 100mm f/2.8L IS USM",
-      "aperture": "f/2.8",
-      "magnification": "1:1",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 87,
-    "name": "Wooden Montessori Activity Cube",
-    "description": "6-sided educational activity cube for toddlers with shape sorter, bead maze, spinning gears, mirror, and clock. Made from FSC-certified solid birch. Ages 12 months+.",
-    "price": 54.99,
-    "category": "Toys & Games",
-    "image": "https://images.unsplash.com/photo-1558877385-81a1c7e67d72?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1558877385-81a1c7e67d72?w=800&q=80",
-      "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80",
-      "https://images.unsplash.com/photo-1597348989645-4b8cb3579b82?w=800&q=80"
-    ],
-    "rating": 4.7,
-    "stock": 39,
-    "specifications": {
-      "brand": "Melissa & Doug",
-      "material": "FSC Birch Wood",
-      "age": "12 months+",
-      "sides": "6 activities",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 88,
-    "name": "Succulent & Cactus Potting Mix 5L",
-    "description": "Professionally blended fast-draining potting mix for succulents, cacti, and arid plants. Contains perlite, pumice, and coarse sand. pH-balanced and pre-fertilised.",
-    "price": 14.99,
-    "category": "Home & Garden",
-    "image": "https://images.unsplash.com/photo-1459156212016-c812468e2115?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1459156212016-c812468e2115?w=800&q=80",
-      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800&q=80",
-      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80"
-    ],
-    "rating": 4.6,
-    "stock": 160,
-    "specifications": {
-      "brand": "Miracle-Gro",
-      "volume": "5 L",
-      "components": "Perlite, Pumice, Sand",
-      "ph": "6.0 – 7.0",
-      "warranty": "N/A"
-    }
-  },
-  {
-    "id": 89,
-    "name": "Desk Organiser Set Walnut",
-    "description": "6-piece solid walnut desk organiser including pen cup, letter tray, phone stand, paper clip dish, and cable organiser. Dovetail joinery. Keeps your workspace minimal.",
-    "price": 89,
-    "category": "Home & Garden",
-    "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80",
-      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
-      "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?w=800&q=80"
-    ],
-    "rating": 4.6,
-    "stock": 28,
-    "specifications": {
-      "brand": "Grovemade",
-      "material": "Solid Walnut",
-      "pieces": "6",
-      "finish": "Hand-rubbed oil",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 90,
-    "name": "Travel Neck Pillow Memory Foam",
-    "description": "360° full-neck support memory foam travel pillow with machine-washable velour cover and a press-button buckle clasp. Compresses to half size. Perfect for long flights.",
-    "price": 39.99,
-    "category": "Sports & Outdoors",
-    "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80",
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
-      "https://images.unsplash.com/photo-1537905569824-f89f14cceb68?w=800&q=80"
-    ],
-    "rating": 4.5,
-    "stock": 103,
-    "specifications": {
-      "brand": "Trtl",
-      "material": "Memory Foam",
-      "cover": "Velour (machine washable)",
-      "closure": "Buckle clasp",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 91,
-    "name": "Reusable Beeswax Food Wraps",
-    "description": "Set of 9 reusable beeswax-coated cotton wraps in 3 sizes (S/M/L). Replaces cling film for wrapping food, bowls, and snacks. Compostable and lasts 12+ months.",
-    "price": 22.99,
-    "category": "Kitchen",
-    "image": "https://images.unsplash.com/photo-1556909195-da228a781ee3?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1556909195-da228a781ee3?w=800&q=80",
-      "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=800&q=80",
-      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=800&q=80"
-    ],
-    "rating": 4.6,
-    "stock": 175,
-    "specifications": {
-      "brand": "Bee's Wrap",
-      "pieces": "9 (3×S, 3×M, 3×L)",
-      "material": "Organic Cotton + Beeswax",
-      "lifespan": "12+ months",
-      "warranty": "N/A"
-    }
-  },
-  {
-    "id": 92,
-    "name": "Plant-Based Protein Powder 1kg",
-    "description": "Organic pea and brown rice protein blend with 26g protein per serving, all 9 essential amino acids, and no artificial sweeteners. Chocolate flavour. Suitable for vegans.",
-    "price": 49.99,
-    "category": "Sports & Outdoors",
-    "image": "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=800&q=80",
-      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
-      "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=800&q=80"
-    ],
-    "rating": 4.5,
-    "stock": 85,
-    "specifications": {
-      "brand": "Vivo Life",
-      "flavour": "Chocolate",
-      "protein_per_serving": "26 g",
-      "weight": "1 kg",
-      "warranty": "N/A"
-    }
-  },
-  {
-    "id": 93,
-    "name": "Outdoor Solar Garden Lights (8-Pack)",
-    "description": "IP65 waterproof solar-powered LED path lights with dusk-to-dawn auto on/off. 200 lumens per unit, stainless steel spike design. No wiring needed.",
-    "price": 36.99,
-    "category": "Home & Garden",
-    "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&q=80",
-      "https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=800&q=80",
-      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80"
-    ],
-    "rating": 4.4,
-    "stock": 130,
-    "specifications": {
-      "brand": "LITOM",
-      "pack": "8",
-      "lumens": "200 per unit",
-      "waterproof": "IP65",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 94,
-    "name": "Digital Drawing Tablet 10\"",
-    "description": "10-inch graphic drawing tablet with 8192 pressure levels, tilt recognition, and 60° tilt support. 266 PPS report rate, 8 shortcut keys, and compatible with all major software.",
-    "price": 79.99,
-    "category": "Electronics",
-    "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
-      "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800&q=80"
-    ],
-    "rating": 4.6,
-    "stock": 46,
-    "specifications": {
-      "brand": "Wacom",
-      "model": "Intuos Pro M",
-      "pressure": "8192 levels",
-      "active_area": "10 inch",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 95,
-    "name": "Cold Brew Coffee Maker 1L",
-    "description": "BPA-free borosilicate glass cold brew maker with a fine stainless steel mesh filter. Brew in the fridge for 12–24 hours. Airtight lid keeps brew fresh for 2 weeks.",
-    "price": 42,
-    "category": "Kitchen",
-    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80",
-      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
-      "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&q=80"
-    ],
-    "rating": 4.7,
-    "stock": 64,
-    "specifications": {
-      "brand": "OXO",
-      "model": "Good Grips Cold Brew",
-      "capacity": "1 L",
-      "material": "Borosilicate Glass",
-      "warranty": "Lifetime"
-    }
-  },
-  {
-    "id": 96,
-    "name": "Weighted Blanket 10kg",
-    "description": "Premium glass-bead weighted blanket in 400-thread-count 100% cotton. Evenly distributed 10kg weight for deep pressure therapy and improved sleep quality.",
-    "price": 99,
-    "category": "Home & Garden",
-    "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80",
-      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"
-    ],
-    "rating": 4.7,
-    "stock": 44,
-    "specifications": {
-      "brand": "Gravity Blanket",
-      "weight": "10 kg",
-      "material": "100% Cotton (400 TC)",
-      "size": "150 × 200 cm",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 97,
-    "name": "Bamboo Cutting Board Set 3-Piece",
-    "description": "Organic bamboo cutting board set in 3 sizes with juice groove and handle hole. Naturally antibacterial, harder than maple, and gentle on knife edges.",
-    "price": 34.99,
-    "category": "Kitchen",
-    "image": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=800&q=80",
-      "https://images.unsplash.com/photo-1556909195-da228a781ee3?w=800&q=80",
-      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=800&q=80"
-    ],
-    "rating": 4.5,
-    "stock": 120,
-    "specifications": {
-      "brand": "Totally Bamboo",
-      "pieces": "3",
-      "material": "Organic Bamboo",
-      "dishwasher": "Hand wash recommended",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 98,
-    "name": "Stainless Steel Meal Prep Containers",
-    "description": "Set of 5 leak-proof stainless steel meal prep containers with locking lids. BPA-free, oven-safe to 400°F, freezer and dishwasher safe. Multiple compartment sizes.",
-    "price": 44.99,
-    "category": "Kitchen",
-    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
-      "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=800&q=80",
-      "https://images.unsplash.com/photo-1556909195-da228a781ee3?w=800&q=80"
-    ],
-    "rating": 4.6,
-    "stock": 89,
-    "specifications": {
-      "brand": "PrepNaturals",
-      "pieces": "5",
-      "material": "18/8 Stainless Steel",
-      "oven_safe": "400°F",
-      "warranty": "Lifetime"
-    }
-  },
-  {
-    "id": 99,
-    "name": "Smart Doorbell Camera HD",
-    "description": "1080p HD video doorbell with two-way audio, motion zones, and pre-roll recording. Works with Alexa and Google. Hardwired or battery-powered. Night vision up to 5m.",
-    "price": 129.99,
-    "category": "Electronics",
-    "image": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&q=80",
-      "https://images.unsplash.com/photo-1593358682958-1a3c59c5c18f?w=800&q=80",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
-    ],
-    "rating": 4.5,
-    "stock": 38,
-    "specifications": {
-      "brand": "Ring",
-      "model": "Video Doorbell 4",
-      "resolution": "1080p HD",
-      "night_vision": "5 m",
-      "warranty": "1 Year"
-    }
-  },
-  {
-    "id": 100,
-    "name": "Personalisable Leather Journal A5",
-    "description": "Handcrafted full-grain buffalo leather journal with 200 pages of 100gsm acid-free paper. Lay-flat binding, ribbon bookmark, and back pocket. Refillable.",
-    "price": 55,
-    "category": "Arts & Crafts",
-    "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&q=80",
-      "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80",
-      "https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?w=800&q=80"
-    ],
-    "rating": 4.8,
-    "stock": 66,
-    "specifications": {
-      "brand": "Paperblanks",
-      "material": "Full-grain Buffalo Leather",
-      "pages": "200",
-      "paper_weight": "100 gsm",
-      "warranty": "N/A"
-    }
   }
 ]
+
+
+
+
+

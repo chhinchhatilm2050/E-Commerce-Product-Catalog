@@ -37,6 +37,10 @@ const router = createRouter({
     meta: { title: 'CbcShop - Login', guestOnly: true }
    }
   ],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) return savedPosition;
+    return { top: 0, behavior: 'smooth' };        
+  }
 })
 
 export default router

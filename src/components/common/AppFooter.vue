@@ -50,9 +50,9 @@
                 v-model="email"
                 type="email"
                 :placeholder="$t('footer.email_placeholder')"
-                class="flex-1 px-2 py-2 border border-gray-500 rounded-xl text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-primary-500"
+                class= " input flex-1 "
               />
-              <button @click="subscribe" class="px-2 py-2 cursor-pointer bg-primary-600 hover:bg-primary-700 text-white text-sm font-semibold rounded-xl transition-colors">
+              <button @click="subscribe" class="px-2 py-2 cursor-pointer bg-primary-600 hover:bg-primary-700 text-white text-sm font-semibold rounded-md transition-colors">
                 {{ $t('footer.subscribe') }}
               </button>
             </div>
