@@ -52,15 +52,16 @@
           </span>
         </div>
         <button
+          @click.stop="handleAddtoCart"
           :disabled="product.stock === 0 || isAdding"
           class="flex items-center text-sm px-2.5 py-1.5 rounded-md transition-all duration-200 cursor-pointer disabled:cursor-not-allowed"
           :class="isAdded
-            ? 'bg-green-100 text-green-700'
+            ? 'bg-primary-600 text-gray-300'
             : product.stock === 0
               ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-              : 'bg-primary-100 text-primary-600 font-medium dark:text-primary-400 dark:bg-primary-950 hover:bg-gray-200 hover:text-gray-700'"
+              : 'default-button'"
         >
-          <span v-if="isAdded">✓ {{ $t('products.added') }}</span>
+          <span v-if="isAdded">{{ $t('products.added') }}</span>
           <span v-else-if="product.stock === 0">{{ $t('products.out_of_stock') }}</span>
           <span v-else>
             {{ $t('products.add_to_cart') }}
@@ -72,36 +73,36 @@
   </div>
 </template>
 <script setup>
-  import { computed} from 'vue';
+  import { computed, ref, onMounted} from 'vue';
   import { useRouter } from 'vue-router';
+  import { useCartStore } from '@/stores/cart.js';
 
   const props = defineProps({
     product: {type: Object, required: true}
   });
+  const emit = defineEmits(['add-to-cart']);
 
   const router = useRouter();
+  const cartStore = useCartStore();
+  const isAdding = ref(false);
+  const isAdded = ref(false);
+
+  onMounted(() => {
+    cartStore.loadCart();
+  })
 
   const discountPrice = computed(() => Math.round((1 - props.product.price / props.product.compare_at_price) * 100));
 
-  // const categoryKey = computed(() => {
-  //   const map = {
-  //     'Electronics':   'electronics',
-  //     'Clothing':      'clothing',
-  //     'Books':         'books',
-  //     'Home & Garden': 'home_garden'
-  //   }
-  //   return map[props.product.category] || 'electronics'
-  // });
-
-  // const categoryBadgeClass = computed(() => {
-  //   const map = {
-  //     'Electronics':   'badge-electronics',
-  //     'Clothing':      'badge-clothing',
-  //     'Books':         'badge-books',
-  //     'Home & Garden': 'badge-home'
-  //   }
-  //   return map[props.product.category] || 'badge-electronics'
-  // });
+  const handleAddtoCart = async () => {
+    if(isAdding.value || props.product.stock === 0) return;
+    isAdding.value = true;
+    await new Promise(r => setTimeout(r, 200));
+    cartStore.addItem(props.product)
+    emit('add-to-cart', props.product)
+    isAdding.value = false;
+    isAdded.value = true;
+    setTimeout(() => {isAdded.value = false}, 500)
+  }
 
   const navigateToDetail = () => {
     router.push({name: 'product-detail', params: {id: props.product}})

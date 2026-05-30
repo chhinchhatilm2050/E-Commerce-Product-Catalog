@@ -57,8 +57,8 @@
 
           <RouterLink class="relative btn-ghost w-8 h-8 p-0 flex items-center justify-center rounded-full dark:hover:bg-gray-400">
             <i class="ri-shopping-bag-line text-lg dark:text-gray-300"></i>
-            <span class="absolute -top-0.5 -right-0.5 w-4.5 h-4.5 bg-primary-600 text-white text-[10px] font-bold rounded-full flex items-center justify-center contain-content animate-bounce-sm">
-              20
+            <span v-if="useCart.itemCount > 0" class="absolute -top-0.5 -right-0.5 w-4.5 h-4.5 bg-primary-600 text-white text-[10px] font-bold rounded-full flex items-center justify-center contain-content animate-bounce-sm">
+              {{ useCart.itemCount > 99 ? '99+' : useCart.itemCount }}
             </span>
           </RouterLink>
 
@@ -81,7 +81,7 @@
             <RouterLink
               v-else
               to="/login"
-              class="hidden sm:flex items-center gap-1.5 px-3.5 py-1.5 text-primary-600 bg-primary-100 rounded-md hover:text-gray-700 dark:hover:text-gray-700 hover:bg-gray-100 dark:bg-primary-950 dark:text-gray-300 transition-all duration-200 "
+              class="hidden sm:flex items-center gap-1.5 default-button"
             >
               <i class="ri-login-box-line"></i>
               Login
@@ -183,10 +183,12 @@
   import { useUserStore } from '@/stores/user.js';
   import { useRouter } from 'vue-router'
   import { useAuthStore } from '@/stores/atuh.js';
+  import { useCartStore } from '@/stores/cart.js';
 
   const userStore = useUserStore();
   const authStore = useAuthStore();
   const router = useRouter();
+  const useCart = useCartStore();
 
 
   const mobileMenuOpen = ref(false)
