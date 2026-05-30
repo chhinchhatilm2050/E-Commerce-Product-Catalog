@@ -13,13 +13,13 @@
           {{ $t('home.hero_subtitle') }}
         </p>
         <div class="flex flex-wrap gap-4 animate-slide-up" style="animation-delay:0.3s">
-          <RouterLink to="/products" class="btn-primary text-base px-6 py-3 rounded-2xl inline-block">
+          <RouterLink to="/products" class="default-button inline-block">
             {{ $t('home.hero_cta') }}
           </RouterLink>
         </div>
         <div class="flex gap-10 mt-14 animate-slide-up" style="animation-delay:0.4s">
             <div v-for="stat in stats" :key="stat.label">
-              <p class="font-display text-3xl font-bold text-gray-700 dark:text-gray-400">{{ stat.value }}</p>
+              <p class="font-display text-3xl font-bold text-gray-70 dark:text-gray-400">{{ stat.value }}</p>
               <p class="text-sm text-primary-600">{{ stat.label }}</p>
             </div>
           </div>
@@ -32,12 +32,13 @@
     </div>
   </section>
 
-  <section class="py-12 bg-white dark:bg-gray-900 ">
+  <section class="py-12 ">
     <div class="container-xl">
+      <h2 class="section-title mb-8">{{ $t('home.feature') }}</h2>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
         <div v-for="feature in features" :key="feature.title"
               class="flex flex-col sm:flex-row items-start sm:items-center gap-3">
-          <div class="w-10 h-10 bg-primary-50 dark:bg-primary-950 rounded-xl flex items-center justify-center shrink-0">
+          <div class="w-10 h-10 bg-primary-100 dark:bg-primary-950 rounded-xl flex items-center justify-center shrink-0">
             <span class="text-xl" v-html="feature.icon"></span>
           </div>
           <div>
@@ -48,6 +49,7 @@
       </div>
     </div>
   </section>
+/>
 
   <section class="py-16 container-xl">
     <h2 class="section-title mb-8">{{ $t('home.categories_title') }}</h2>
