@@ -71,12 +71,6 @@
   },
   {immediate: true}
   );
-  // watch(() => route.query.category,
-  //   async (cat) => {
-  //     selectedCategory.value = cat ? decodeURIComponent(cat) : 'all';
-  //   },
-  //   { immediate: true }
-  // );
 
   onMounted(async () => {
     if (productStore.products.length === 0) {

@@ -1,3 +1,4 @@
+
 @import "tailwindcss";
 @source "../";
 @import 'remixicon/fonts/remixicon.css';
@@ -78,21 +79,32 @@
 }
 
 @layer components {
+
   .btn-primary {
-    @apply bg-primary-500 hover:bg-primary-600 active:bg-primary-800
-    text-white font-semibold px-6 py-2 rounded-xl cursor-pointer transition-all
-    duration-200 shadow-sm hover:shadow-glow disabled:opacity-50 disabled:cursor-not-allowed
-    focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2
+    @apply bg-primary-600 hover:bg-primary-700 active:bg-primary-800
+    text-white font-semibold px-6 py-2.5 rounded-xl cursor-pointer
+    transition-all duration-200 shadow-sm hover:shadow-glow
+    disabled:opacity-50 disabled:cursor-not-allowed
+    focus:outline-none focus:ring-1 focus:ring-primary-500 focus:ring-offset-2
     inline-flex items-center justify-center;
+  }
+
+
+  .default-button {
+    @apply text-primary-600 bg-primary-100 hover:bg-gray-200 hover:text-gray-700 dark:bg-primary-950 dark:text-primary-400
+    font-medium px-2 py-2 rounded-md cursor-pointer transition-all
+    duration-200 shadow-sm  disabled:opacity-50 disabled:cursor-not-allowed
+    focus:outline-none focus:ring-primary-500 focus:ring-offset-2
+    inline-flex items-center justify-center
   }
 
   .btn-outline {
     @apply border-2 border-primary-500 text-primary-600
-    hover:bg-gray-200 font-semibold px-3 py-2 rounded-xl cursor-pointer
+    hover:bg-gray-200 font-semibold px-3 py-2 rounded-md cursor-pointer
     transition-all duration-200
     focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2
     inline-flex items-center justify-center;
-}
+  }
 
   .btn-ghost {
     @apply text-gray-600 hover:text-gray-900 hover:bg-gray-200
@@ -123,7 +135,7 @@
   }
 
   .label {
-    @apply block text-sm font-semibold text-gray-500 mb-1.5 dark:text-gray-400;
+    @apply block text-sm font-medium text-gray-500 mb-1.5 dark:text-gray-400;
   }
 
   .error-msg {
@@ -133,11 +145,6 @@
   .badge {
     @apply flex items-center justify-center px-2 py-1 rounded-sm text-xs font-semibold;
   }
-
-  .badge-electronics { @apply bg-primary-50  text-primary-600; }
-  .badge-clothing    { @apply bg-gray-300  text-gray-700; }
-  .badge-books       { @apply bg-gray-700 text-gray-300; }
-  .badge-home        { @apply bg-primary-600 text-primary-50; }
 
   .container-xl {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;

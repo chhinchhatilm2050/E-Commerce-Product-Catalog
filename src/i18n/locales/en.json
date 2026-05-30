@@ -69,7 +69,8 @@
         "easy_returns": "Easy Returns",
         "easy_returns_desc": "30-day hassle-free returns",
         "support": "24/7 Support",
-        "support_desc": "Dedicated customer service"
+        "support_desc": "Dedicated customer service",
+        "feature": "Feature Shop"
     },
     "products": {
         "title": "Our Products",
@@ -83,7 +84,7 @@
         "sort_name_asc": "Name: A–Z",
         "sort_rating": "Highest Rated",
         "add_to_cart": "Add to Cart",
-        "added": "Added!",
+        "added": "Added",
         "out_of_stock": "Out of Stock",
         "view_details": "View Details",
         "all_categories": "All",
